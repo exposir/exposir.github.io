@@ -489,9 +489,7 @@ a {
   font-size: 18px;
   color: #495057;
 }
-.post-detail .post-content p code,
-.post-detail .post-content ul code,
-.post-detail .post-content ol code {
+.post-detail .post-content p code {
   padding: 0 3px;
   margin: 0 2px;
   background: #e9ecef;
