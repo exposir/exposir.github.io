@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2019-10-14T07:32:09.485Z</updated>
+    <updated>2019-10-16T02:19:44.969Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[WebGl]]></title>
+        <id>https://exposir.github.io/post/webgl</id>
+        <link href="https://exposir.github.io/post/webgl">
+        </link>
+        <updated>2019-10-15T10:53:15.000Z</updated>
+        <content type="html"><![CDATA[<p>成对的方法：顶点着色器、片段着色器。  每一对组合起来称作一个program（着色程序）<br>
+顶点着色器的作用是计算顶点的位置。<br>
+片断着色器的作用是计算出当前绘制图元中每个像素的颜色值。</p>
+<p>对于想要绘制的每一个对象，都需要先设置一系列状态值，然后通过调用 <code>gl.drawArrays</code>或 <code>gl.drawElements</code>运行一个着色方法对，使得你的着色器对能够在GPU上运行。</p>
+<p>WebGL只关心两件事：裁剪空间中的坐标值和颜色值。使用WebGL只需要给它提供这两个东西。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[线性代数]]></title>
         <id>https://exposir.github.io/post/xian-xing-dai-shu</id>
