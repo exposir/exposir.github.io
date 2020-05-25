@@ -1,295 +1,310 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>孟世博</title>
-<meta name="description" content="追求">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://exposir.github.io/favicon.ico?v=1590382972958">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://exposir.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://exposir.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://exposir.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="孟世博 - Atom Feed" href="https://exposir.github.io/atom.xml">
 
+    
 
+  <meta name="description" content="追求" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://exposir.github.io">
-        <img src="https://exposir.github.io/images/avatar.png?v=1590382972958" class="site-logo">
-        <h1 class="site-title">孟世博</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/exposir/" class="site-nav">
-            关于
-          </a>
-        
-      
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/exposir/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://exposir.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
       
-        
-          <a class="social-link" href="https://github.com/exposir" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-          <a class="social-link" href="https://weibo.com/exposir/home" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://www.zhihu.com/" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      孟世博
     </div>
-    <div class="site-description">
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
       追求
     </div>
-    <div class="site-footer">
-      Gridea | <a class="rss" href="https://exposir.github.io/atom.xml" target="_blank">RSS</a>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://exposir.github.io/images/avatar.png?v=1590388524627" alt="孟世博" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          本地服务器和浏览器运行html文件的区别
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-05-22</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        浏览器是file协议，本地服务器是http协议。
+
+file协议更多的是将该请求视为一个本地资源访问请求，和你使用资源管理器打开是一样的，是纯粹的请求本地文件。
+http请求方式则是通过假架设一个web服务器，解析http协议的请求然后向浏...
+      </div>
+      <a href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          分享程序员好网站
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-05-22</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+最适合学习javascript的中文网站：https://zh.javascript.info/
+
+
+      </div>
+      <a href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          三十天坚持计划
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-05-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        DAY1  2020-5-19
+不吃零食 少糖少碳 划船机
+
+      </div>
+      <a href="https://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          警惕个人的政治正确
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-29</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        在国家和社会层面警惕政治正确思想很重要，但对于我们个人来说，警惕个人内心的所谓政治正确的限制更为重要。即警惕“只有我接受和喜欢的才是好的”这种思想。在博物馆里逛上一整天和用手机刷一天快手抖音并没有什么不同，藏品文物蕴含久远深意和魅力，快抖的...
+      </div>
+      <a href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          你是如何放下对小米的执念的？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-21</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+所爱跨山海，纵使沧海桑田，亦不能变。
+...
+      </div>
+      <a href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/vueset/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Vue.set
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-21</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+...
+      </div>
+      <a href="https://exposir.github.io/post/vueset/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          请求数据传递参数的方式
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        Get Query
+axios.get(utl,{param:{data}}).then().catach()
+
+      </div>
+      <a href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/leetcode/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          leetcode-求最大公约数
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-05</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        辗转相除法
+const gcd = (x, y) =&gt; {
+  return x == 0 ? y : gcd(y%x, x);
+}
+
+function gcd(a, b) {
+        if (a % b == 0) retu...
+      </div>
+      <a href="https://exposir.github.io/post/leetcode/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="data:image/png;base64,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" alt="leetcode-求最大公约数">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          党和国家领导人北京住宅或官邸
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-05</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        目前，党和国家领导人多在北京市及附近地区居住。除私人房产外，已知的公配住宅或官邸位于中南海、玉泉山、西山、新六所、府右街、北长街、南长街、南池子、米粮库胡同（邓小平官邸）、富强胡同（胡耀邦、赵紫阳官邸）、史家胡同、东交民巷17号（温家宝时期...
+      </div>
+      <a href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://exposir.github.io/post/webgl/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          WebGl
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-10-15</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        成对的方法：顶点着色器、片段着色器。  每一对组合起来称作一个program（着色程序）
+顶点着色器的作用是计算顶点的位置。
+片断着色器的作用是计算出当前绘制图元中每个像素的颜色值。
+对于想要绘制的每一个对象，都需要先设置一系列状态值，然后...
+      </div>
+      <a href="https://exposir.github.io/post/webgl/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+    
+      <a href="https://exposir.github.io/page/2" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Gridea
+</footer>
+
     </div>
   </div>
-</div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://exposir.github.io/media/scripts/main.js"></script>
+</body>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/">
-                  <h2 class="post-title">本地服务器和浏览器运行html文件的区别</h2>
-                </a>
-                <div class="post-date">
-                  2020-05-22
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/">
-                  <h2 class="post-title">分享程序员好网站</h2>
-                </a>
-                <div class="post-date">
-                  2020-05-22
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/">
-                  <h2 class="post-title">三十天坚持计划</h2>
-                </a>
-                <div class="post-date">
-                  2020-05-19
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/">
-                  <h2 class="post-title">警惕个人的政治正确</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-29
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/">
-                  <h2 class="post-title">你是如何放下对小米的执念的？</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-21
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/vueset/">
-                  <h2 class="post-title">Vue.set</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-21
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/">
-                  <h2 class="post-title">请求数据传递参数的方式</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-18
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/leetcode/">
-                  <h2 class="post-title">leetcode-求最大公约数</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-05
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://exposir.github.io/post/leetcode/">
-                  <div class="feature-container" style="background-image: url('data:image/png;base64,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')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/">
-                  <h2 class="post-title">党和国家领导人北京住宅或官邸</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-05
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://exposir.github.io/post/webgl/">
-                  <h2 class="post-title">WebGl</h2>
-                </a>
-                <div class="post-date">
-                  2019-10-15
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-    <a href="https://exposir.github.io/page/2" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
-  
-</div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
 </html>
