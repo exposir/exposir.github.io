@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://exposir.github.io</id>
+    <id>http://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-05-25T03:45:04.217Z</updated>
+    <updated>2020-05-25T03:46:25.685Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://exposir.github.io"/>
-    <link rel="self" href="https://exposir.github.io/atom.xml"/>
+    <link rel="alternate" href="http://exposir.github.io"/>
+    <link rel="self" href="http://exposir.github.io/atom.xml"/>
     <subtitle>追求</subtitle>
-    <logo>https://exposir.github.io/images/avatar.png</logo>
-    <icon>https://exposir.github.io/favicon.ico</icon>
+    <logo>http://exposir.github.io/images/avatar.png</logo>
+    <icon>http://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
     <entry>
         <title type="html"><![CDATA[本地服务器和浏览器运行html文件的区别。]]></title>
-        <id>https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/</id>
-        <link href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/">
+        <id>http://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/</id>
+        <link href="http://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/">
         </link>
         <updated>2020-05-22T07:07:59.000Z</updated>
         <content type="html"><![CDATA[<p>浏览器是file协议，本地服务器是http协议。</p>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[分享程序员好网站]]></title>
-        <id>https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/</id>
-        <link href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/">
+        <id>http://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/</id>
+        <link href="http://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/">
         </link>
         <updated>2020-05-22T03:35:24.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -36,8 +36,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[三十天坚持计划]]></title>
-        <id>https://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/</id>
-        <link href="https://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/">
+        <id>http://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/</id>
+        <link href="http://exposir.github.io/post/san-shi-tian-jian-chi-ji-hua/">
         </link>
         <updated>2020-05-19T06:49:57.000Z</updated>
         <content type="html"><![CDATA[<h3 id="day1-2020-5-19">DAY1  2020-5-19</h3>
@@ -46,38 +46,38 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[警惕个人的政治正确]]></title>
-        <id>https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/</id>
-        <link href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/">
+        <id>http://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/</id>
+        <link href="http://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/">
         </link>
         <updated>2019-11-29T06:39:41.000Z</updated>
         <content type="html"><![CDATA[<p>在国家和社会层面警惕政治正确思想很重要，但对于我们个人来说，警惕个人内心的所谓政治正确的限制更为重要。即警惕“只有我接受和喜欢的才是好的”这种思想。在博物馆里逛上一整天和用手机刷一天快手抖音并没有什么不同，藏品文物蕴含久远深意和魅力，快抖的小姐姐向外透着年轻的创意和生命力。思想深远视野开阔纵然重要，活得简单吃饱就睡也不是不可，这不是佛系，更不是圣母，而是要能欣赏世间一切的美好。</p>
 <p>罗大佑在演唱会时说过，如果他年轻时活在现在这个时代，也会和现在的年轻人一样，每天发发自拍。深以为然</p>
-<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1575009618614.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://exposir.github.io/post-images/1575009618614.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[你是如何放下对小米的执念的？]]></title>
-        <id>https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/</id>
-        <link href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/">
+        <id>http://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/</id>
+        <link href="http://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/">
         </link>
         <updated>2019-11-21T06:29:08.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1574317770311.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://exposir.github.io/post-images/1574317770311.png" alt="" loading="lazy"></figure>
 <p>所爱跨山海，纵使沧海桑田，亦不能变。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue.set]]></title>
-        <id>https://exposir.github.io/post/vueset/</id>
-        <link href="https://exposir.github.io/post/vueset/">
+        <id>http://exposir.github.io/post/vueset/</id>
+        <link href="http://exposir.github.io/post/vueset/">
         </link>
         <updated>2019-11-21T06:27:48.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1574317734237.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://exposir.github.io/post-images/1574317734237.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[请求数据传递参数的方式]]></title>
-        <id>https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/</id>
-        <link href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/">
+        <id>http://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/</id>
+        <link href="http://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/">
         </link>
         <updated>2019-11-18T03:08:02.000Z</updated>
         <content type="html"><![CDATA[<p>Get Query<br>
@@ -86,8 +86,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[leetcode-求最大公约数]]></title>
-        <id>https://exposir.github.io/post/leetcode/</id>
-        <link href="https://exposir.github.io/post/leetcode/">
+        <id>http://exposir.github.io/post/leetcode/</id>
+        <link href="http://exposir.github.io/post/leetcode/">
         </link>
         <updated>2019-11-05T06:46:41.000Z</updated>
         <content type="html"><![CDATA[<h3 id="辗转相除法">辗转相除法</h3>
@@ -104,8 +104,8 @@ function gcd(a, b) {
     </entry>
     <entry>
         <title type="html"><![CDATA[党和国家领导人北京住宅或官邸]]></title>
-        <id>https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/</id>
-        <link href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/">
+        <id>http://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/</id>
+        <link href="http://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/">
         </link>
         <updated>2019-11-05T02:56:18.000Z</updated>
         <content type="html"><![CDATA[<p>目前，党和国家领导人多在北京市及附近地区居住。除私人房产外，已知的公配住宅或官邸位于中南海、玉泉山、西山、新六所、府右街、北长街、南长街、南池子、米粮库胡同（邓小平官邸）、富强胡同（胡耀邦、赵紫阳官邸）、史家胡同、东交民巷17号（温家宝时期国务院总理官邸）、毛家湾（曾为林彪住处，现为中央档案馆）等。</p>
@@ -113,8 +113,8 @@ function gcd(a, b) {
     </entry>
     <entry>
         <title type="html"><![CDATA[WebGl]]></title>
-        <id>https://exposir.github.io/post/webgl/</id>
-        <link href="https://exposir.github.io/post/webgl/">
+        <id>http://exposir.github.io/post/webgl/</id>
+        <link href="http://exposir.github.io/post/webgl/">
         </link>
         <updated>2019-10-15T10:53:15.000Z</updated>
         <content type="html"><![CDATA[<p>成对的方法：顶点着色器、片段着色器。  每一对组合起来称作一个program（着色程序）<br>
