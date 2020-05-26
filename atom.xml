@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-05-25T06:35:50.070Z</updated>
+    <updated>2020-05-26T06:53:18.251Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,81 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[Git提交的正确姿势]]></title>
+        <id>https://exposir.github.io/post/git-ti-jiao-de-zheng-que-zi-shi/</id>
+        <link href="https://exposir.github.io/post/git-ti-jiao-de-zheng-que-zi-shi/">
+        </link>
+        <updated>2020-05-26T06:52:50.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.oschina.net/news/69705/git-commit-message-and-changelog-guide">Git 提交的正确姿势：Commit message 编写指南 - OSCHINA</a></p>
+<p>Commit message 包括三个部分：Header、Body、Footer。<br>
+其中，Header是必须的，Body和Footer可以省略。</p>
+<pre><code class="language-js">&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
+&lt;body&gt;
+&lt;footer&gt;
+</code></pre>
+<h2 id="header">Header</h2>
+<h3 id="type用于说明commit的类别只允许使用下面7个标示">type用于说明commit的类别，只允许使用下面7个标示。</h3>
+<ul>
+<li>feat：新功能（feature)</li>
+<li>fix：修补bug</li>
+<li>doc：文档（documentation)</li>
+<li>style： 格式（不影响代码运行的变动）</li>
+<li>refactor：重构（即不是新增功能，也不是修改bug的代码变动）</li>
+<li>test：增加测试</li>
+<li>chore：构建过程或辅助工具的变动</li>
+</ul>
+<p>如果type为feat和fix，则该 commit 将肯定出现在 Change log 之中。其他情况（docs、chore、style、refactor、test）由你决定，要不要放入 Change log，建议是不要。</p>
+<h3 id="scope">scope</h3>
+<p>scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。</p>
+<h3 id="subject">subject</h3>
+<p>subject是 commit 目的的简短描述，不超过50个字符。</p>
+<ul>
+<li>以动词开头，使用第一人称现在时，比如change，而不是changed或changes</li>
+<li>第一个字母小写</li>
+<li>结尾不加句号（.）</li>
+</ul>
+<h2 id="body">Body</h2>
+<p>Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。</p>
+<pre><code>More detailed explanatory text, if necessary.  Wrap it to 
+about 72 characters or so. Further paragraphs come after blank lines.- Bullet points are okay, too- Use a hanging indent
+</code></pre>
+<p>有两个注意点:</p>
+<ol>
+<li>使用第一人称现在时，比如使用change，而不是changed或changes。</li>
+<li>应该说吗代码变动的动机，以及与之前行为的对比。</li>
+</ol>
+<h2 id="footer">Footer</h2>
+<p>Footer 部分只用于两种情况。</p>
+<h3 id="1不兼容变动">1.不兼容变动</h3>
+<p>如果当前代码与上一个版本不兼容，则 Footer 部分以BREAKING CHANGE开头，后面是对变动的描述、以及变动理由和迁移方法。</p>
+<pre><code>BREAKING CHANGE: isolate scope bindings definition has changed.
+
+    To migrate the code follow the example below:
+
+    Before:
+
+    scope: {
+      myAttr: 'attribute',
+    }
+
+    After:
+
+    scope: {
+      myAttr: '@',
+    }
+
+    The removed `inject` wasn't generaly useful for directives so there should be no code using it.
+</code></pre>
+<h3 id="关闭issue">关闭Issue</h3>
+<p>如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。</p>
+<pre><code>Closes #234
+</code></pre>
+<p>也可以一次关闭多个 issue 。</p>
+<pre><code>Closes #123, #245, #992
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本地服务器和浏览器运行html文件的区别]]></title>
         <id>https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/</id>
@@ -109,19 +184,6 @@ function gcd(a, b) {
         </link>
         <updated>2019-11-05T02:56:18.000Z</updated>
         <content type="html"><![CDATA[<p>目前，党和国家领导人多在北京市及附近地区居住。除私人房产外，已知的公配住宅或官邸位于中南海、玉泉山、西山、新六所、府右街、北长街、南长街、南池子、米粮库胡同（邓小平官邸）、富强胡同（胡耀邦、赵紫阳官邸）、史家胡同、东交民巷17号（温家宝时期国务院总理官邸）、毛家湾（曾为林彪住处，现为中央档案馆）等。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebGl]]></title>
-        <id>https://exposir.github.io/post/webgl/</id>
-        <link href="https://exposir.github.io/post/webgl/">
-        </link>
-        <updated>2019-10-15T10:53:15.000Z</updated>
-        <content type="html"><![CDATA[<p>成对的方法：顶点着色器、片段着色器。  每一对组合起来称作一个program（着色程序）<br>
-顶点着色器的作用是计算顶点的位置。<br>
-片断着色器的作用是计算出当前绘制图元中每个像素的颜色值。</p>
-<p>对于想要绘制的每一个对象，都需要先设置一系列状态值，然后通过调用 <code>gl.drawArrays</code>或 <code>gl.drawElements</code>运行一个着色方法对，使得你的着色器对能够在GPU上运行。</p>
-<p>WebGL只关心两件事：裁剪空间中的坐标值和颜色值。使用WebGL只需要给它提供这两个东西。</p>
 ]]></content>
     </entry>
 </feed>
