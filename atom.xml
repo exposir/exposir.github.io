@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-05-27T10:00:38.752Z</updated>
+    <updated>2020-06-12T10:48:55.508Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,74 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[北京海底捞价格一览表]]></title>
+        <id>https://exposir.github.io/post/bei-jing-hai-di-lao-jie-ge-yi-lan-biao/</id>
+        <link href="https://exposir.github.io/post/bei-jing-hai-di-lao-jie-ge-yi-lan-biao/">
+        </link>
+        <updated>2020-06-12T10:48:31.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>海底捞</th>
+<th>牛油</th>
+<th>午餐肉</th>
+<th>羊肉</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新荟城</td>
+<td>112</td>
+<td>20</td>
+<td>32</td>
+</tr>
+<tr>
+<td>港旅</td>
+<td>112</td>
+<td>20</td>
+<td>32</td>
+</tr>
+<tr>
+<td>太阳宫</td>
+<td>112</td>
+<td>20</td>
+<td>31</td>
+</tr>
+<tr>
+<td>大屯北路</td>
+<td>112</td>
+<td>22</td>
+<td>32</td>
+</tr>
+<tr>
+<td>中骏世界</td>
+<td>129</td>
+<td>29（整份）</td>
+<td>31</td>
+</tr>
+<tr>
+<td>三里屯</td>
+<td>112</td>
+<td>19</td>
+<td>34</td>
+</tr>
+<tr>
+<td>华贸中心</td>
+<td>112</td>
+<td>18</td>
+<td>29</td>
+</tr>
+<tr>
+<td>华贸天体</td>
+<td>112</td>
+<td>19</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[可选链操作符]]></title>
         <id>https://exposir.github.io/post/ke-xuan-lian-cao-zuo-fu/</id>
@@ -189,24 +257,6 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
         <updated>2019-11-18T03:08:02.000Z</updated>
         <content type="html"><![CDATA[<p>Get Query<br>
 <code>axios.get(</code>utl<code>,{param:{data}}).then().catach()</code></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[leetcode-求最大公约数]]></title>
-        <id>https://exposir.github.io/post/leetcode/</id>
-        <link href="https://exposir.github.io/post/leetcode/">
-        </link>
-        <updated>2019-11-05T06:46:41.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="辗转相除法">辗转相除法</h3>
-<pre><code class="language-js">const gcd = (x, y) =&gt; {
-  return x == 0 ? y : gcd(y%x, x);
-}
-
-function gcd(a, b) {
-        if (a % b == 0) return b;
-        return gcd(b, a % b);
- }
-</code></pre>
 ]]></content>
     </entry>
 </feed>
