@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-06-15T03:26:51.415Z</updated>
+    <updated>2020-06-16T06:14:11.450Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[郭宇]]></title>
+        <id>https://exposir.github.io/post/guo-yu/</id>
+        <link href="https://exposir.github.io/post/guo-yu/">
+        </link>
+        <updated>2020-06-16T06:13:50.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1592288042014.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nginx]]></title>
         <id>https://exposir.github.io/post/Nginx/</id>
@@ -364,15 +373,6 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
         <updated>2019-11-21T06:29:08.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1574317770311.png" alt="" loading="lazy"></figure>
 <p>所爱跨山海，纵使沧海桑田，亦不能变。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue.set]]></title>
-        <id>https://exposir.github.io/post/vueset/</id>
-        <link href="https://exposir.github.io/post/vueset/">
-        </link>
-        <updated>2019-11-21T06:27:48.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1574317734237.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
