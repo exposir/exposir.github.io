@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-06-17T03:04:29.481Z</updated>
+    <updated>2020-06-19T07:17:28.178Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -11,11 +11,20 @@
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
     <entry>
+        <title type="html"><![CDATA[健身之美]]></title>
+        <id>https://exposir.github.io/post/jian-shen-zhi-mei/</id>
+        <link href="https://exposir.github.io/post/jian-shen-zhi-mei/">
+        </link>
+        <updated>2020-06-19T07:17:08.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[跑步与自律]]></title>
         <id>https://exposir.github.io/post/pao-bu-yu-zi-lu/</id>
         <link href="https://exposir.github.io/post/pao-bu-yu-zi-lu/">
         </link>
         <updated>2020-06-17T03:04:17.000Z</updated>
+        <content type="html"><![CDATA[<p>自律，一切皆有可能。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[郭宇]]></title>
@@ -359,17 +368,6 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
         <updated>2020-05-19T06:49:57.000Z</updated>
         <content type="html"><![CDATA[<h3 id="day1-2020-5-19">DAY1  2020-5-19</h3>
 <p>不吃零食 少糖少碳 划船机</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[警惕个人的政治正确]]></title>
-        <id>https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/</id>
-        <link href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/">
-        </link>
-        <updated>2019-11-29T06:39:41.000Z</updated>
-        <content type="html"><![CDATA[<p>在国家和社会层面警惕政治正确思想很重要，但对于我们个人来说，警惕个人内心的所谓政治正确的限制更为重要。即警惕“只有我接受和喜欢的才是好的”这种思想。在博物馆里逛上一整天和用手机刷一天快手抖音并没有什么不同，藏品文物蕴含久远深意和魅力，快抖的小姐姐向外透着年轻的创意和生命力。思想深远视野开阔纵然重要，活得简单吃饱就睡也不是不可，这不是佛系，更不是圣母，而是要能欣赏世间一切的美好。</p>
-<p>罗大佑在演唱会时说过，如果他年轻时活在现在这个时代，也会和现在的年轻人一样，每天发发自拍。深以为然</p>
-<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1575009618614.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
