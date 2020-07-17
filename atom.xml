@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-07-09T07:20:20.063Z</updated>
+    <updated>2020-07-17T06:33:36.003Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[Http状态码]]></title>
+        <id>https://exposir.github.io/post/http-zhuang-tai-ma/</id>
+        <link href="https://exposir.github.io/post/http-zhuang-tai-ma/">
+        </link>
+        <updated>2020-07-17T06:31:20.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>301 Move Permanently 永久重定向</li>
+<li>302 Found 临时重定向</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[软件三大原则]]></title>
         <id>https://exposir.github.io/post/ruan-jian-san-da-yuan-ze/</id>
@@ -20,48 +32,6 @@
 <p>降低可管理单元复杂度一个基本策略就是拆解成更小单元。最小单元在你系统只能有且出现一次。</p>
 <p>原则2：KISS(keep it simple stupid)保持简单直接</p>
 <p>原则3：YAGNI(you ain't gonna need it)你不需要它</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[健康生活 充满阳光☀️]]></title>
-        <id>https://exposir.github.io/post/jian-kang-sheng-huo-chong-man-yang-guang/</id>
-        <link href="https://exposir.github.io/post/jian-kang-sheng-huo-chong-man-yang-guang/">
-        </link>
-        <updated>2020-07-07T02:13:42.000Z</updated>
-        <content type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th>日期</th>
-<th>早餐</th>
-<th>午餐</th>
-<th>晚餐</th>
-<th>零食</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>7-7</td>
-<td>营养快线</td>
-<td>🍜+酸奶</td>
-<td>♾</td>
-<td></td>
-</tr>
-<tr>
-<td>7-8</td>
-<td>特仑苏</td>
-<td>凉皮+驴肉火烧+瑞纳冰</td>
-<td>筋饼卷土豆丝</td>
-<td></td>
-</tr>
-<tr>
-<td>7-9</td>
-<td>特仑苏</td>
-<td>三个包子+半个玉米+半瓶营养</td>
-<td>筋饼卷土豆丝</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 ]]></content>
     </entry>
     <entry>
