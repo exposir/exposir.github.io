@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-07-17T06:33:36.003Z</updated>
+    <updated>2020-07-20T10:35:11.189Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[on the way]]></title>
+        <id>https://exposir.github.io/post/on-the-way/</id>
+        <link href="https://exposir.github.io/post/on-the-way/">
+        </link>
+        <updated>2020-07-20T10:34:39.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>rust</li>
+<li>算法</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Http状态码]]></title>
         <id>https://exposir.github.io/post/http-zhuang-tai-ma/</id>
@@ -364,17 +376,6 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
 <li>file协议更多的是将该请求视为一个本地资源访问请求，和你使用资源管理器打开是一样的，是纯粹的请求本地文件。</li>
 <li>http请求方式则是通过假架设一个web服务器，解析http协议的请求然后向浏览器返回资源信息。我们所开发的html文件最后必定是会以网页的形式部署在服务器上，通过http协议访问，所以我们开发中也尽可能模拟线上环境，架设本地服务器，来避免file协议与http协议实现。</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[分享程序员好网站]]></title>
-        <id>https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/</id>
-        <link href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/">
-        </link>
-        <updated>2020-05-22T03:35:24.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>最适合学习javascript的中文网站：https://zh.javascript.info/</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
