@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-07-20T10:35:11.189Z</updated>
+    <updated>2020-07-21T11:53:00.218Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[http请求参数]]></title>
+        <id>https://exposir.github.io/post/http-qing-qiu-can-shu/</id>
+        <link href="https://exposir.github.io/post/http-qing-qiu-can-shu/">
+        </link>
+        <updated>2020-07-21T11:50:48.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Query String Parameters</li>
+<li>Form Data</li>
+<li>Request Payload</li>
+</ul>
+<h2 id="get请求">GET请求</h2>
+<h3 id="query-string-parameters">Query String Parameters</h3>
+<p>GET请求时，参数会以url string 的形式进行传递，即?后的字符串则为其请求参数，并以&amp;作为分隔符。</p>
+<h2 id="post请求">POST请求</h2>
+<p>post请求会出现两种请求体：</p>
+<h3 id="form-data">Form Data</h3>
+<p>当发起一次Post请求，若未指定Content-type，则默认content-type为<strong>application/x-www-form-urlencoded</strong>,即参数会以FormData的形式进行传递，不会显示出现在请求URL中。</p>
+<h3 id="request-payload">Request Payload</h3>
+<p>当发起一次post请求，若Content-Type为<strong>application/json</strong>，则参数会以Request Payload的形式进行传递（数据格式为json）,不会显示出现在请求url中。</p>
+<p><code>服务器为什么会对表单提交和文件上传做特殊处理，因为表单提交数据是名值对的方式，且Content-Type为application/x-www-form-urlencoded,而文件上传服务器需要特殊处理，普通的post请求（Content-Type不是application/x-www-form-urlencoded）数据格式不固定，不一定是名值对的方式，所以服务器无法知道具体的处理方式，所以只能通过获取原始数据流的方式来进行解析。</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[on the way]]></title>
         <id>https://exposir.github.io/post/on-the-way/</id>
@@ -53,15 +76,6 @@
         </link>
         <updated>2020-06-29T03:53:06.000Z</updated>
         <content type="html"><![CDATA[<p>https://michaelnthiessen.com/force-re-render/</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[郭宇]]></title>
-        <id>https://exposir.github.io/post/guo-yu/</id>
-        <link href="https://exposir.github.io/post/guo-yu/">
-        </link>
-        <updated>2020-06-16T06:13:50.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1592288042014.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
