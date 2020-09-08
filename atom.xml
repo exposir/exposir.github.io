@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2020-07-21T11:53:00.218Z</updated>
+    <updated>2020-09-08T06:12:14.762Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[反思]]></title>
+        <id>https://exposir.github.io/post/fan-si/</id>
+        <link href="https://exposir.github.io/post/fan-si/">
+        </link>
+        <updated>2020-09-08T06:10:35.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://exposir.github.io/post-images/1599545514771.jpeg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[http请求参数]]></title>
         <id>https://exposir.github.io/post/http-qing-qiu-can-shu/</id>
@@ -377,19 +386,6 @@ about 72 characters or so. Further paragraphs come after blank lines.- Bullet po
 <p>也可以一次关闭多个 issue 。</p>
 <pre><code>Closes #123, #245, #992
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[本地服务器和浏览器运行html文件的区别]]></title>
-        <id>https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/</id>
-        <link href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/">
-        </link>
-        <updated>2020-05-22T07:07:59.000Z</updated>
-        <content type="html"><![CDATA[<p>浏览器是file协议，本地服务器是http协议。</p>
-<ul>
-<li>file协议更多的是将该请求视为一个本地资源访问请求，和你使用资源管理器打开是一样的，是纯粹的请求本地文件。</li>
-<li>http请求方式则是通过假架设一个web服务器，解析http协议的请求然后向浏览器返回资源信息。我们所开发的html文件最后必定是会以网页的形式部署在服务器上，通过http协议访问，所以我们开发中也尽可能模拟线上环境，架设本地服务器，来避免file协议与http协议实现。</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
