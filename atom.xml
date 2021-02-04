@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2021-02-04T09:32:56.922Z</updated>
+    <updated>2021-02-04T14:13:01.420Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[解决github不显示图片配置的host ]]></title>
+        <id>https://exposir.github.io/post/jie-jue-github-bu-xian-shi-tu-pian-pei-zhi-de-host/</id>
+        <link href="https://exposir.github.io/post/jie-jue-github-bu-xian-shi-tu-pian-pei-zhi-de-host/">
+        </link>
+        <updated>2021-02-04T14:12:10.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-js"># GitHub Start 
+192.30.253.112    Build software better, together 
+192.30.253.119    gist.github.com
+151.101.184.133    assets-cdn.github.com
+151.101.184.133    raw.githubusercontent.com
+151.101.184.133    gist.githubusercontent.com
+151.101.184.133    cloud.githubusercontent.com
+151.101.184.133    camo.githubusercontent.com
+151.101.184.133    avatars0.githubusercontent.com
+151.101.184.133    avatars1.githubusercontent.com
+151.101.184.133    avatars2.githubusercontent.com
+151.101.184.133    avatars3.githubusercontent.com
+151.101.184.133    avatars4.githubusercontent.com
+151.101.184.133    avatars5.githubusercontent.com
+151.101.184.133    avatars6.githubusercontent.com
+151.101.184.133    avatars7.githubusercontent.com
+151.101.184.133    avatars8.githubusercontent.com
+ # GitHub End
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[时间复杂度]]></title>
         <id>https://exposir.github.io/post/shi-jian-fu-za-du/</id>
@@ -365,38 +392,6 @@ deny all;
 </tbody>
 </table>
 <h4 id="该表时间为2020年6月12日以当天时间为准">该表时间为2020年6月12日，以当天时间为准。</h4>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[可选链操作符]]></title>
-        <id>https://exposir.github.io/post/ke-xuan-lian-cao-zuo-fu/</id>
-        <link href="https://exposir.github.io/post/ke-xuan-lian-cao-zuo-fu/">
-        </link>
-        <updated>2020-05-27T09:58:52.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="es2020">ES2020</h2>
-<p><strong>可选链</strong>操作符 <strong>?.</strong> 可以按照操作符之前的属性是否有效，链式读取对象的属性或者使整个对象链返回 undefined。?. 运算符的作用与 . 运算符类似，不同之处在于，如果对象链上的引用是  <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Nullish">nullish</a>  ( <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/null">null</a>  或者  <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined">undefined</a> )，. 操作符会抛出一个错误，而 ?. 操作符则会按照短路计算的方式进行处理，返回 undefined。可选链操作符也可用于函数调用，如果操作符前的函数不存在，也将会返回 undefined。</p>
-<p>当尝试访问可能不存在的对象属性时，可选链操作符将会使表达式更短、更简明。在探索一个对象的内容时，如果不能确定哪些属性必定存在，可选链操作符也是很有帮助的。</p>
-<pre><code class="language-js">const adventurer = {
-  name: 'Alice',
-  cat: {
-    name: 'Dinah'
-  }
-};
-
-const dogName = adventurer.dog?.name;
-console.log(dogName);
-// expected output: undefined
-
-console.log(adventurer.someNonExistentMethod?.());
-// expected output: undefined
-</code></pre>
-<h2 id="语法">语法</h2>
-<pre><code class="language-js">obj?.prop
-obj?.[expr]
-arr?.[index]
-func?.(args)
-
-</code></pre>
 ]]></content>
     </entry>
 </feed>
