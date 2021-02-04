@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2021-02-04T14:13:01.420Z</updated>
+    <updated>2021-02-04T14:28:32.056Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -24,6 +24,7 @@
 151.101.184.133    gist.githubusercontent.com
 151.101.184.133    cloud.githubusercontent.com
 151.101.184.133    camo.githubusercontent.com
+151.101.184.133    avatars.githubusercontent.com
 151.101.184.133    avatars0.githubusercontent.com
 151.101.184.133    avatars1.githubusercontent.com
 151.101.184.133    avatars2.githubusercontent.com
