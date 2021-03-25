@@ -1,273 +1,483 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>孟世博</title>
-<link rel="shortcut icon" href="https://exposir.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://exposir.github.io/media/css/tailwind.css">
-<link rel="stylesheet" href="https://exposir.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="孟世博 - Atom Feed" href="https://exposir.github.io/atom.xml">
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>归档 | 孟世博</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://exposir.github.io/media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://exposir.github.io/media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="归档 | 孟世博 » Feed" href="https://exposir.github.io/atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://exposir.github.io/styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://exposir.github.io/media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
 
-    
-
-  <meta name="description" content="追求" />
-</head>
-<body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
-
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://exposir.github.io">孟世博</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/exposir/">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
     </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="/post/exposir/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-    <a href="https://exposir.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
   </nav>
-</div>
-
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <div class="py-8 shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/javascript-na-xie-bian-li-de-fang-fa/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                javascript那些遍历的方法
-              </a>
-            </div>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://exposir.github.io/media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1 class="tag-tl">Archives</h1>
           </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
         
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/jie-jue-github-bu-xian-shi-tu-pian-pei-zhi-de-host/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                解决github不显示图片配置的host 
-              </a>
-            </div>
-          </div>
+      
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-archives">
+    <h2 class="year">2021</h2>
+    
+                
+        <a href="https://exposir.github.io/post/javascript-na-xie-bian-li-de-fang-fa/" class="post">
+          <h2 class="post-title Archives">
+            javascript那些遍历的方法
+          </h2>
+          <div class="time post-meta">2021-02-10</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/jie-jue-github-bu-xian-shi-tu-pian-pei-zhi-de-host/" class="post">
+          <h2 class="post-title Archives">
+            解决github不显示图片配置的host 
+          </h2>
+          <div class="time post-meta">2021-02-04</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/shi-jian-fu-za-du/" class="post">
+          <h2 class="post-title Archives">
+            时间复杂度
+          </h2>
+          <div class="time post-meta">2021-02-04</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/javascript-shi-xian-yi-ge-lian-biao/" class="post">
+          <h2 class="post-title Archives">
+            Javascript实现一个链表
+          </h2>
+          <div class="time post-meta">2021-02-03</div>
+        </a>
+  
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+        </div>
+        </div>
         
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/shi-jian-fu-za-du/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                时间复杂度
-              </a>
-            </div>
-          </div>
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-archives">
+    <h2 class="year">2020</h2>
+    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+        <a href="https://exposir.github.io/post/fan-si/" class="post">
+          <h2 class="post-title Archives">
+            反思
+          </h2>
+          <div class="time post-meta">2020-09-08</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/http-qing-qiu-can-shu/" class="post">
+          <h2 class="post-title Archives">
+            http请求参数
+          </h2>
+          <div class="time post-meta">2020-07-21</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/http-zhuang-tai-ma/" class="post">
+          <h2 class="post-title Archives">
+            Http状态码
+          </h2>
+          <div class="time post-meta">2020-07-17</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/ruan-jian-san-da-yuan-ze/" class="post">
+          <h2 class="post-title Archives">
+            软件三大原则
+          </h2>
+          <div class="time post-meta">2020-07-09</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/the-correct-way-to-force-vue-to-re-render-a-component/" class="post">
+          <h2 class="post-title Archives">
+            The correct way to force Vue to re-render a component
+          </h2>
+          <div class="time post-meta">2020-06-29</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/Nginx/" class="post">
+          <h2 class="post-title Archives">
+            Nginx
+          </h2>
+          <div class="time post-meta">2020-06-15</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/bei-jing-hai-di-lao-jie-ge-yi-lan-biao/" class="post">
+          <h2 class="post-title Archives">
+            北京海底捞价格一览表
+          </h2>
+          <div class="time post-meta">2020-06-12</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/ke-xuan-lian-cao-zuo-fu/" class="post">
+          <h2 class="post-title Archives">
+            可选链操作符
+          </h2>
+          <div class="time post-meta">2020-05-27</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/git-ti-jiao-de-zheng-que-zi-shi/" class="post">
+          <h2 class="post-title Archives">
+            Git提交的正确姿势
+          </h2>
+          <div class="time post-meta">2020-05-26</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/" class="post">
+          <h2 class="post-title Archives">
+            本地服务器和浏览器运行html文件的区别
+          </h2>
+          <div class="time post-meta">2020-05-22</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/" class="post">
+          <h2 class="post-title Archives">
+            分享程序员好网站
+          </h2>
+          <div class="time post-meta">2020-05-22</div>
+        </a>
+  
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+        </div>
+        </div>
         
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/javascript-shi-xian-yi-ge-lian-biao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                Javascript实现一个链表
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/fan-si/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                反思
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/http-qing-qiu-can-shu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                http请求参数
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/http-zhuang-tai-ma/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                Http状态码
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/ruan-jian-san-da-yuan-ze/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                软件三大原则
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/the-correct-way-to-force-vue-to-re-render-a-component/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                The correct way to force Vue to re-render a component
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/Nginx/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                Nginx
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/bei-jing-hai-di-lao-jie-ge-yi-lan-biao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                北京海底捞价格一览表
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/ke-xuan-lian-cao-zuo-fu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                可选链操作符
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/git-ti-jiao-de-zheng-que-zi-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                Git提交的正确姿势
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/ben-di-fu-wu-qi-he-liu-lan-qi-yun-xing-html-wen-jian-de-qu-bie/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                本地服务器和浏览器运行html文件的区别
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/fen-xiang-cheng-xu-yuan-hao-wang-zhan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                分享程序员好网站
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                警惕个人的政治正确
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                你是如何放下对小米的执念的？
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/vueset/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                Vue.set
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                请求数据传递参数的方式
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/leetcode/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                leetcode-求最大公约数
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                党和国家领导人北京住宅或官邸
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/webgl/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                WebGl
-              </a>
-            </div>
-          </div>
-        
-          <div class="px-8 pb-5 flex relative overflow-hidden">
-            
-            <div class="flex-1">
-              <a href="https://exposir.github.io/post/xian-xing-dai-shu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-                线性代数
-              </a>
-            </div>
-          </div>
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-archives">
+    <h2 class="year">2019</h2>
+    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+        <a href="https://exposir.github.io/post/jing-ti-ge-ren-de-zheng-zhi-zheng-que/" class="post">
+          <h2 class="post-title Archives">
+            警惕个人的政治正确
+          </h2>
+          <div class="time post-meta">2019-11-29</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/ni-shi-ru-he-fang-xia-dui-xiao-mi-de-zhi-nian-de/" class="post">
+          <h2 class="post-title Archives">
+            你是如何放下对小米的执念的？
+          </h2>
+          <div class="time post-meta">2019-11-21</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/vueset/" class="post">
+          <h2 class="post-title Archives">
+            Vue.set
+          </h2>
+          <div class="time post-meta">2019-11-21</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/qing-qiu-shu-ju-chuan-di-can-shu-de-fang-shi/" class="post">
+          <h2 class="post-title Archives">
+            请求数据传递参数的方式
+          </h2>
+          <div class="time post-meta">2019-11-18</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/leetcode/" class="post">
+          <h2 class="post-title Archives">
+            leetcode-求最大公约数
+          </h2>
+          <div class="time post-meta">2019-11-05</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/dang-he-guo-jia-ling-dao-ren-bei-jing-zhu-zhai-huo-guan-di/" class="post">
+          <h2 class="post-title Archives">
+            党和国家领导人北京住宅或官邸
+          </h2>
+          <div class="time post-meta">2019-11-05</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/webgl/" class="post">
+          <h2 class="post-title Archives">
+            WebGl
+          </h2>
+          <div class="time post-meta">2019-10-15</div>
+        </a>
+  
+                    
+                
+        <a href="https://exposir.github.io/post/xian-xing-dai-shu/" class="post">
+          <h2 class="post-title Archives">
+            线性代数
+          </h2>
+          <div class="time post-meta">2019-10-14</div>
+        </a>
+  
+                    
+        </div>
+        </div>
         
       </div>
-
-      
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  Gridea
-</footer>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://exposir.github.io/media/scripts/main.js"></script>
-</body>
+  </article>
+
+
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://exposir.github.io/atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>孟世博</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://exposir.github.io/media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://exposir.github.io/media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
 </html>
