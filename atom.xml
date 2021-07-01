@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exposir.github.io</id>
     <title>孟世博</title>
-    <updated>2021-07-01T04:46:35.953Z</updated>
+    <updated>2021-07-01T04:47:58.591Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exposir.github.io"/>
     <link rel="self" href="https://exposir.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://exposir.github.io/images/avatar.png</logo>
     <icon>https://exposir.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 孟世博</rights>
+    <entry>
+        <title type="html"><![CDATA[React]]></title>
+        <id>https://exposir.github.io/post/react/</id>
+        <link href="https://exposir.github.io/post/react/">
+        </link>
+        <updated>2021-07-01T04:47:27.000Z</updated>
+        <content type="html"><![CDATA[<p>我们一般会把组件的 state 的初始化工作放在 constructor 里面去做；在 componentWillMount 进行组件的启动工作，例如 Ajax 数据拉取、定时器的启动；组件从页面上销毁的时候，有时候需要一些数据的清理，例如定时器的清理，就会放在 componentWillUnmount 里面去做。<br>
+说一下本节没有提到的 componentDidMount DOM 来讲。</p>
+<p>组件的挂载指的是将组件渲染并且构造 DOM 元素然后插入页面的过程。这是一个从无到有的过程</p>
+<p>这里为了知识的完整，补充关于更新阶段的组件生命周期：<br>
+1	shouldComponentUpdate(nextProps, nextState)：你可以通过这个方法控制组件是否重新渲染。如果返回 false 组件就不会重新渲染。这个生命周期在 React.js 性能优化上非常有用。<br>
+2	componentWillReceiveProps(nextProps)：组件从父组件接收到新的 props 之前调用。<br>
+3	componentWillUpdate()：组件开始重新渲染之前调用。<br>
+4	componentDidUpdate()：组件重新渲染并且把更改变更到真实的 DOM 以后调用。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[javascript那些遍历的方法]]></title>
         <id>https://exposir.github.io/post/javascript-na-xie-bian-li-de-fang-fa/</id>
@@ -218,131 +234,6 @@
         </link>
         <updated>2020-06-29T03:53:06.000Z</updated>
         <content type="html"><![CDATA[<p>https://michaelnthiessen.com/force-re-render/</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nginx]]></title>
-        <id>https://exposir.github.io/post/Nginx/</id>
-        <link href="https://exposir.github.io/post/Nginx/">
-        </link>
-        <updated>2020-06-15T03:24:44.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>“Nginx是一款轻量级的HTTP服务器，采用事件驱动的异步非阻塞处理方式框架，这让其具有极好的IO性能，时常用于服务端的反向代理和负载均衡。”</p>
-</blockquote>
-<h2 id="反向代理">反向代理</h2>
-<p>什么是反向代理？ 互联网应用基本都基于CS基本结构，即client端和server端。代理其实就是在client端和真正的server端之前增加一层提供特定服务的服务器，即代理服务器。</p>
-<h3 id="正向代理">正向代理</h3>
-<p>反向代理不好理解，<strong>正向代理</strong>大家总有用过，翻墙工具其实就是一个正向代理工具。它会把 们访问墙外服务器server的网页请求，代理到一个可以访问该网站的代理服务器proxy，这个代理服务器proxy把墙外服务器server上的网页内容获取，再转发给客户。、</p>
-<p>概括说：就是客户端和代理服务器可以直接互相访问，属于一个LAN（局域网）；代理对用户是<strong>非透明</strong>的，即用户需要自己操作或者感知得到自己的请求被发送到代理服务器；代理服务器通过<strong>代理用户端的请求</strong>来向域外服务器请求响应内容。</p>
-<h3 id="反向代理-2">反向代理</h3>
-<p>在<strong>反向代理</strong>中（事实上，这种情况基本发生在所有的大型网站的页面请求中），客户端发送的请求，想要访问server服务器上的内容。但将被发送到一个代理服务器proxy，这个代理服务器将把请求代理到和自己属于同一个LAN下的内部服务器上，而用户真正想获得的内容就储存在这些内部服务器上。看到区别了吗，这里proxy服务器代理的并不是客户，而是服务器，即向外部客户端提供了一个统一的代理入口，客户端的请求，都先经过这个proxy服务器，至于在内网真正访问哪台服务器内容，由这个proxy去控制。一般代理是指代理客户端，而这里代理的对象是服务器，这就是“反向”这个词的意思。Nginx就是来充当这个proxy的作用。 概括说：就是代理服务器和真正server服务器可以直接互相访问，属于一个LAN（服务器内网）；代理对用户是<strong>透明</strong>的，即无感知。不论加不加这个反向代理，用户都是通过相同的请求进行的，且不需要任何额外的操作；代理服务器通过<strong>代理内部服务器</strong>接受域外客户端的请求，并将请求发送到对应的内部服务器上。</p>
-<h3 id="为什么要nginx反向代理">为什么要Nginx反向代理</h3>
-<ol>
-<li>安全及权限。可以看出，使用反向代理后，用户端将无法直接通过请求访问真正的内容服务器，而必须首先通过Nginx。可以通过在Nginx层上将危险或者没有权限的请求内容过滤掉，从而保证了服务器的安全。</li>
-<li>负载均衡。例如一个网站的内容被部署在若干台服务器上，可以把这些机子看成一个集群，那么Nginx可以将接收到的客户端请求“均匀地”分配到这个集群中所有的服务器上（内部模块提供了多种负载均衡算法），从而实现服务器压力的负载均衡。此外，nginx还带有健康检查功能（服务器心跳检查），会定期轮询向集群里的所有服务器发送健康检查请求，来检查集群中是否有服务器处于异常状态，一旦发现某台服务器异常，那么在以后代理进来的客户端请求都不会被发送到该服务器上（直到后面的健康检查发现该服务器恢复正常），从而保证客户端访问的稳定性。</li>
-</ol>
-<h2 id="前端可以用nginx做些什么">前端可以用Nginx做些什么</h2>
-<h3 id="1快速实现简单的访问控制">1.快速实现简单的访问控制</h3>
-<p>经常会遇到希望网站让某些特定用户的群体（比如只让公司内网）访问，或者控制某个uri不让人访问。Nginx配置如下：</p>
-<pre><code class="language-js">location / {
-deny 192.168.1.100; 
-allow 192.168.1.10/200; 
-allow 10.110.50.16; 
-deny all; 
-}
-</code></pre>
-<p>其实deny和allow是<strong>ngx_http_access_module</strong>模块（已内置）中的语法。采用的是从上到下匹配方式，匹配到就跳出不再继续匹配。上述配置的意思就是，首先禁止192.168.1.100访问，然后允许192.168.1.10-200 ip段内的访问（排除192.168.1.100），同时允许10.110.50.16这个单独ip的访问，剩下未匹配到的全部禁止访问。实际生产中，经常和<strong>ngx_http_geo_module</strong>模块（可以更好地管理ip地址表，已内置）配合使用。</p>
-<h3 id="2解决跨域">2.解决跨域</h3>
-<h3 id="3适配pc与移动环境">3.适配PC与移动环境</h3>
-<p>现在很多网站都存在PC站和H5站两个站点，因此根据用户的浏览环境自动切换站点是很常见的需求。Nginx可以通过内置变量$http_user_agent，获取到请求客户端的userAgent，从而知道用户处于移动端还是PC，进而控制重定向到H5站还是PC站。</p>
-<pre><code class="language-js">    location / {
-        # 移动、pc设备适配
-        if ($http_user_agent ~* '(Android|webOS|iPhone|iPod|BlackBerry)') {
-            set $mobile_request '1';
-        }
-        if ($mobile_request = '1') {
- rewrite ^.+ http://mysite-base-H5.com;
-        }
-    }  
-</code></pre>
-<h3 id="4合并请求">4.合并请求</h3>
-<p>前端性能优化中重要一点就是尽量减少http资源请求的数量。通过 <a href="https://github.com/alibaba/nginx-http-concat">nginx-http-concat</a> 模块（淘宝开发的第三方模块，需要单独安装）用一种特殊的请求url规则，前端可以将多个资源的请求合并成一个请求，后台Nginx会获取各个资源并拼接成一个结果进行返回。</p>
-<h3 id="5图片处理">5.图片处理</h3>
-<p>在前端开发中，经常需要不同尺寸的图片。现在的云储存基本对图片都提供有处理服务（一般是通过在图片链接上加参数）。其实用Nginx，可以通过几十行配置，搭建出一个属于自己的本地图片处理服务，完全能够满足日常对图片的裁剪/缩放/旋转/图片品质等处理需求。要用到 <a href="http://nginx.org/en/docs/http/ngx_http_image_filter_module.html">ngx_http_image_filter_module</a> 模块。这个模块是非基本模块，需要安装。</p>
-<pre><code class="language-js">    # 图片缩放处理
-    # 这里约定的图片处理url格式：以 mysite-base.com/img/路径访问
-    location ~* /img/(.+)$ {
-        alias /Users/cc/Desktop/server/static/image/$1; #图片服务端储存地址
-        set $width -; #图片宽度默认值
-        set $height -; #图片高度默认值
-        if ($arg_width != &quot;&quot;) {
-            set $width $arg_width;
-        }
-        if ($arg_height != &quot;&quot;) {
-            set $height $arg_height;
-        }
-        image_filter resize $width $height; #设置图片宽高
-        image_filter_buffer 10M;   #设置Nginx读取图片的最大buffer。
-        image_filter_interlace on; #是否开启图片图像隔行扫描
-        error_page 415 = 415.png; #图片处理错误提示图，例如缩放参数不是数字
-    }
-</code></pre>
-<p>这里只是最基本的配置。此外，可以通过proxy_cache配置Nginx缓存，避免每次请求都重新处理图片，减少Nginx服务器处理压力；还以可以通过和 <a href="http://www.grid.net.ru/nginx/upload.en.html">nginx-upload-module</a> 一起使用加入图片上传的功能等。</p>
-<h3 id="6页面内容修改">6.页面内容修改</h3>
-<p>Nginx可以通过向页面底部或者顶部插入额外的css和js文件，从而实现修改页面内容。这个功能需要额外模块的支持，例如： <a href="https://github.com/alibaba/nginx-http-footer-filter">nginx_http_footer_filter</a> 或者 <a href="http://nginx.org/en/docs/http/ngx_http_addition_module.html">ngx_http_addition_module</a>  (都需要安装)。 工作中，经常需要切换各种测试环境，而通过switchhosts等工具切换后，有时还需要清理浏览器dns缓存。可以通过页面内容修改+Nginx反向代理来实现轻松快捷的环境切换。 这里首先在本地编写一段js代码（switchhost.js），里面的逻辑是：在页面插入hosts切换菜单以及点击具体某个环境时，将该host的ip和hostname储存在cookie中，最后刷新页面；接着编写一段css代码（switchhost.css）用来设置该hosts切换菜单的样式。 然后Nginx脚本配置：</p>
-<pre><code class="language-js">server {
-        listen 80;
-        listen  443 ssl;
-        expires -1;
-        # 想要代理的域名
-        server_name m-element.kaola.com;
-        set $root /Users/cc/Desktop/server;
-        charset utf-8;
-        ssl_certificate      /usr/local/etc/nginx/m-element.kaola.com.crt;
-        ssl_certificate_key  /usr/local/etc/nginx/m-element.kaola.com.key;
-
-        # 设置默认$switch_host，一般默认为线上host，这里的1.1.1.1随便写的
-        set $switch_host '1.1.1.1';
-        # 设置默认$switch_hostname，一般默认为线上'online'
-        set $switch_hostname '';
-        # 从cookie中获取环境ip
-        if ($http_cookie ~* &quot;switch_host=(.+?)(?=;|$)&quot;) {
-            set $switch_host $1;
-        }
-        
-        # 从cookie中获取环境名
-        if ($http_cookie ~* &quot;switch_hostname=(.+?)(?=;|$)&quot;) {
-            set $switch_hostname $1;
-        }
-        
-        location / {
-            expires -1;
-            index index.html;
-            proxy_set_header Host $host;
-            #把html页面的gzip压缩去掉，不然sub_filter无法替换内容
-            proxy_set_header Accept-Encoding '';
-            #反向代理到实际服务器ip
-            proxy_pass  http://$switch_host:80;
-            #全部替换
-            sub_filter_once off;
-            #ngx_http_addition_module模块替换内容。
-            # 这里在头部插入一段css，内容是hosts切换菜单的css样式
-            sub_filter '&lt;/head&gt;' '&lt;/head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;screen&quot; href=&quot;/local/switchhost.css&quot; /&gt;';
-            #将页面中的'网易考拉'文字后面加上环境名，便于开发识别目前环境
-            sub_filter '网易考拉' '网易考拉:${switch_hostname}';
-            #这里用了另一个模块nginx_http_footer_filter，其实上面的模块就行，只是为了展示用法
-            # 最后插入一段js，内容是hosts切换菜单的js逻辑
-            set $injected '&lt;script language=&quot;javascript&quot; src=&quot;/local/switchhost.js&quot;&gt;&lt;/script&gt;';
-            footer '${injected}';
-        }
-        # 对于/local/请求，优先匹配本地文件
-        # 所以上面的/local/switchhost.css，/local/switchhost.js会从本地获取
-        location ^~ /local/ {
-            root $root;
-        }
-}
-</code></pre>
-<p>这个功能其实为Nginx在前端开发中的应用提供了无限可能。例如，可以通过区分本地、测试和线上环境，为本地/测试环境页面增加很多开发辅助功能：给本地页面加一个常驻二维码便于手机端扫码调试；本地调试线上页面时，在js文件底部塞入sourceMappingURL，便于本地debug等等</p>
 ]]></content>
     </entry>
 </feed>
