@@ -29,7 +29,7 @@ function HeaderAside() {
           display: "block",
           margin: "5px auto",
         }}
-        alt="Rodrigo Pombo"
+        alt="exposir"
       />
       <SocialIcons />
     </div>
