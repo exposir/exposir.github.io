@@ -1,0 +1,29 @@
+---
+title: 本地服务器和浏览器运行html文件的区别
+date: 2019-05-22
+responsive: true
+---
+
+import { CodeWave } from 'gatsby-theme-waves';
+
+<CodeWave>
+
+```jsx
+file协议更多的是将该请求视为一个本地资源访问请求，
+和你使用资源管理器打开是一样的，
+是纯粹的请求本地文件。
+```
+
+**浏览器是 file 协议**
+
+```jsx
+http请求方式则是通过假架设一个web服务器，
+解析http协议的请求然后向浏览器返回资源信息。
+我们所开发的html文件最后必定是会以网页的形式部署在服务器上，
+通过http协议访问，所以我们开发中也尽可能模拟线上环境，
+架设本地服务器，来避免file协议与http协议实现。
+```
+
+**本地服务器是 http 协议**
+
+</CodeWave>
