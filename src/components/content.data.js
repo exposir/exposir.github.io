@@ -79,6 +79,7 @@ module.exports = [
 		description: '我党成立一百年来，实现了中国沧桑巨变，建立了丰功伟绩.',
 		date: '2021/07/01',
 		url: '/100th',
+		pinned: true,
 	},
 	{
 		type: 'blog post',
@@ -104,8 +105,8 @@ module.exports = [
 	},
 	{
 		type: 'life',
-		title: '党和国家领导人北京住宅或官邸',
-		description: '目前，党和国家领导人多在北京市及附近地区居住。',
+		title: '前党和国家领导人北京住宅或官邸',
+		description: '目前，前党和国家领导人多在北京市及附近地区居住。',
 		date: '2019/11/13',
 		url: '/party-and-state-leaders-in-beijing',
 		pinned: true,
