@@ -77,7 +77,7 @@ function Page({ children }) {
 									'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;',
 							}}
 						>
-							@pomber
+							@exposir
 						</p>
 					</div>
 				</div>

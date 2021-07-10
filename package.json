@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"private": true,
-	"repository": "git@github.com:pomber/site.git",
+	"repository": "git@github.com:exposir/exposir.cn.git",
 	"author": "exposir",
 	"license": "MIT",
 	"dependencies": {
@@ -47,9 +47,9 @@
 		"start": "gatsby develop",
 		"clean": "gatsby clean",
 		"start:public": "gatsby develop -H 0.0.0.0",
-		"develop": "git pull&&git add .&& git commit -m '更新博客'&&git push",
-		"deploy:exposir": "cd ../exposir.github.io&&git pull&&git add .&& git commit -m '更新博客'&&git push",
+		"push": "git pull&&git add .&& git commit -m '更新博客'&&git push",
+		"push:exposir": "cd ../exposir.github.io&&git pull&&git add .&& git commit -m '更新博客'&&git push",
 		"build:exposir": "gatsby clean&gatsby build&&cp CNAME public&&cp -R public/. ../exposir.github.io",
-		"build": "yarn develop&&yarn build:exposir&&yarn deploy:exposir"
+		"deploy": "yarn push&&yarn build:exposir&&yarn push:exposir"
 	}
 }
