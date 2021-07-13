@@ -50,7 +50,7 @@
     "start:public": "gatsby develop -H 0.0.0.0",
     "push": "git pull&&git add .&& git commit -m '更新博客'&&git push",
     "push:exposir": "cd ../exposir.github.io&&git pull&&git add .&& git commit -m '更新博客'&&git push",
-    "build:exposir": "gatsby clean&gatsby build&&cp CNAME public&&cp -R public/. ../exposir.github.io",
-    "deploy": "yarn push&&yarn build:exposir&&yarn push:exposir"
+    "build2exposir": "gatsby clean&gatsby build&&cp CNAME public&&cp -R public/. ../exposir.github.io",
+    "deploy": "yarn push&&yarn build2exposir&&yarn push:exposir"
   }
 }
