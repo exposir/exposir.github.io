@@ -4,21 +4,15 @@ date: 2019-11-05
 responsive: true
 ---
 
-import { CodeWave } from 'gatsby-theme-waves';
-
-<CodeWave>
+## 辗转相除法
 
 ```jsx
 const gcd = (x, y) => {
-	return x == 0 ? y : gcd(y % x, x);
+  return x == 0 ? y : gcd(y % x, x);
 };
 
 function gcd(a, b) {
-	if (a % b == 0) return b;
-	return gcd(b, a % b);
+  if (a % b == 0) return b;
+  return gcd(b, a % b);
 }
 ```
-
-** 辗转相除法**:
-
-</CodeWave>

@@ -1,30 +1,26 @@
-const crypto = require(`crypto`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const crypto = require(`crypto`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 // These are customizable theme options we only need to check once
-let contentPath = `posts`
+let contentPath = `posts`;
 
 // These templates are simply data-fetching wrappers that import components
-const PostTemplate = require.resolve(`./src/templates/post`)
+const PostTemplate = require.resolve(`./src/templates/post`);
 
-const mdxResolverPassthrough = (fieldName) => async (
-  source,
-  args,
-  context,
-  info
-) => {
-  const type = info.schema.getType(`Mdx`)
-  const mdxNode = context.nodeModel.getNodeById({
-    id: source.parent,
-  })
-  const resolver = type.getFields()[fieldName].resolve
-  const result = await resolver(mdxNode, args, context, {
-    fieldName,
-  })
-  return result
-}
+const mdxResolverPassthrough =
+  (fieldName) => async (source, args, context, info) => {
+    const type = info.schema.getType(`Mdx`);
+    const mdxNode = context.nodeModel.getNodeById({
+      id: source.parent,
+    });
+    const resolver = type.getFields()[fieldName].resolve;
+    const result = await resolver(mdxNode, args, context, {
+      fieldName,
+    });
+    return result;
+  };
 exports.sourceNodes = ({ actions, schema }) => {
-  const { createTypes } = actions
+  const { createTypes } = actions;
   createTypes(
     schema.buildObjectType({
       name: `BlogPost`,
@@ -56,11 +52,11 @@ exports.sourceNodes = ({ actions, schema }) => {
       },
       interfaces: [`Node`],
     })
-  )
-}
+  );
+};
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
   const result = await graphql(`
     {
@@ -86,19 +82,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
 
   if (result.errors) {
-    reporter.panic(result.errors)
+    reporter.panic(result.errors);
   }
 
   // Create Post pages.
-  const { mdxPages } = result.data
-  const posts = mdxPages.edges
+  const { mdxPages } = result.data;
+  const posts = mdxPages.edges;
 
   // Create a page for each Post
   posts.forEach(({ node: post }) => {
-    const { slug } = post
+    const { slug } = post;
     createPage({
       path: slug,
       component: PostTemplate,
@@ -106,40 +102,41 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         ...post,
         relativeDirectory: post.parent.parent.relativeDirectory,
       },
-    })
-  })
-}
+    });
+  });
+};
 
 // Create fields for post slugs and source
 // This will change with schema customization with work
 exports.onCreateNode = ({ node, actions, getNode, createNodeId }) => {
-  const { createNode, createParentChildLink } = actions
+  const { createNode, createParentChildLink } = actions;
 
   // Make sure it's an MDX node
   if (node.internal.type !== `Mdx`) {
-    return
+    return;
   }
 
   // Create source field (according to contentPath)
-  const fileNode = getNode(node.parent)
-  const source = fileNode.sourceInstanceName
+  const fileNode = getNode(node.parent);
+  const source = fileNode.sourceInstanceName;
 
   if (node.internal.type === `Mdx` && source === contentPath) {
     const slug = createFilePath({
       node: fileNode,
       getNode,
       basePath: contentPath,
-    })
+    });
 
     const fieldData = {
       title: node.frontmatter.title,
       responsive: node.frontmatter.responsive,
       description: node.frontmatter.description,
+      fullScreen: node.frontmatter.fullScreen,
       tags: node.frontmatter.tags || [],
       slug,
       date: node.frontmatter.date,
       keywords: node.frontmatter.keywords || [],
-    }
+    };
     createNode({
       ...fieldData,
       // Required fields.
@@ -155,7 +152,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId }) => {
         content: JSON.stringify(fieldData),
         description: `Blog Posts`,
       },
-    })
-    createParentChildLink({ parent: fileNode, child: node })
+    });
+    createParentChildLink({ parent: fileNode, child: node });
   }
-}
+};

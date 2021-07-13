@@ -1,12 +1,12 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import Post from "../components/post"
+import Post from "../components/post";
 
-export default ({ location, data }) => <Post data={data} location={location} />
+export default ({ location, data }) => <Post data={data} location={location} />;
 
 export const pageQuery = graphql`
-  query($id: String!, $relativeDirectory: String = "home") {
+  query ($id: String!, $relativeDirectory: String = "home") {
     post: blogPost(id: { eq: $id }) {
       id
       title
@@ -14,6 +14,7 @@ export const pageQuery = graphql`
       excerpt
       body
       responsive
+      fullScreen
       description
     }
     card: file(
@@ -27,4 +28,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
