@@ -68,7 +68,7 @@ const SEO = ({ title, description, pathname, article, card, responsive }) => (
               {`var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?bbfceafec90a060cc22e3a1f62c6b4f4";
+  hm.src = "https://hm.baidu.com/hm.js?584e04fe11f2faf26ddd5458633f86b4";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();`}
