@@ -36,6 +36,15 @@ const SEO = ({ title, description, pathname, article, card, responsive }) => (
               lang: "en",
             }}
           >
+            <script>
+              {`var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?584e04fe11f2faf26ddd5458633f86b4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`}
+            </script>
             <meta
               name="viewport"
               content={
@@ -64,15 +73,6 @@ const SEO = ({ title, description, pathname, article, card, responsive }) => (
               <meta name="twitter:description" content={seo.description} />
             )}
             {seo.image && <meta name="twitter:image" content={seo.image} />}
-            <script>
-              {`var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?584e04fe11f2faf26ddd5458633f86b4";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();`}
-            </script>
           </Helmet>
         </>
       );
