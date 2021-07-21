@@ -1,6 +1,6 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react";
+import { Helmet } from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
 const SEO = ({ title, description, pathname, article, card, responsive }) => (
   <StaticQuery
@@ -26,7 +26,7 @@ const SEO = ({ title, description, pathname, article, card, responsive }) => (
         description: description || defaultDescription,
         image: `${siteUrl}${card ? card.childImageSharp.fixed.src : imageSrc}`,
         url: `${siteUrl}${pathname || "/"}`,
-      }
+      };
 
       return (
         <>
@@ -64,14 +64,23 @@ const SEO = ({ title, description, pathname, article, card, responsive }) => (
               <meta name="twitter:description" content={seo.description} />
             )}
             {seo.image && <meta name="twitter:image" content={seo.image} />}
+            <script>
+              {`var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?bbfceafec90a060cc22e3a1f62c6b4f4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`}
+            </script>
           </Helmet>
         </>
-      )
+      );
     }}
   />
-)
+);
 
-export default SEO
+export default SEO;
 
 const query = graphql`
   query SEO {
@@ -91,4 +100,4 @@ const query = graphql`
       }
     }
   }
-`
+`;
