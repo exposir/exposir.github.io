@@ -24,6 +24,15 @@ module.exports = [
     pinned: true,
   },
   {
+    type: "life",
+    title: "《他改变了中国：江泽民传》书摘 ",
+    description:
+      "《他改变了中国：江泽民传》是一部有关中国第三代最高领导人、前中共中央总书记江泽民的传记，作者为罗伯特·劳伦斯·库恩。",
+    date: "2021/07/23",
+    url: "https://github.com/exposir/Personal-Blog/issues/41",
+    pinned: false,
+  },
+  {
     type: "blog post",
     title: "javascript那些遍历的方法",
     description: "如果只谈性能，显然是 for > forEach > map",
