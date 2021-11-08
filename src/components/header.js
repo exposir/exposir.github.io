@@ -17,7 +17,7 @@ function Header() {
               /pomb[a-z]+/
             </Styled.inlineCode> */}
           </Styled.p>
-          <Styled.p>正在学习React Native ~</Styled.p>
+          <Styled.p>正在学习React Native !</Styled.p>
         </>
       }
       aside={<HeaderAside />}
