@@ -1,6 +1,6 @@
 const content = require('./src/components/content.data');
 
-const description = `一个简单的前端工程师.`.trim();
+const description = `一个简单的前端工程师`.trim();
 
 module.exports = {
 	plugins: [
