@@ -121,12 +121,4 @@ module.exports = [
     url: "/party-and-state-leaders-in-beijing",
     pinned: true,
   },
-  {
-    type: "github",
-    title: "forked by Rodrigo Pombo",
-    description: "",
-    date: "1970/01/01",
-    url: "https://github.com/pomber",
-    pinned: true,
-  },
 ];
