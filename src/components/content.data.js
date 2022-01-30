@@ -29,7 +29,7 @@ module.exports = [
     description:
       "《他改变了中国：江泽民传》是一部有关中国第三代最高领导人、前中共中央总书记江泽民的传记，作者为罗伯特·劳伦斯·库恩。",
     date: "2021/07/23",
-    url: "https://github.com/exposir/Personal-Blog/issues/53",
+    url: "/《他改变了中国：江泽民传》书摘",
     pinned: false,
   },
   // {
