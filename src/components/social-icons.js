@@ -50,7 +50,7 @@ function Patreon() {
 
 function Book() {
   return (
-    <Icon url="/read" title="Book">
+    <Icon url="https://weekly.exposir.cn/" title="Book">
       <svg
         t="1626262328387"
         class="icon"
