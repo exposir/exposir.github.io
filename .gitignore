@@ -105,3 +105,4 @@ dist
 .tern-port
 
 .yarn.lock
+.DS_Store
