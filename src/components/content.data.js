@@ -23,15 +23,17 @@ module.exports = [
   //   url: "/100th",
   //   pinned: true,
   // },
-  {
-    type: "life",
-    title: "《他改变了中国：江泽民传》书摘",
-    description:
-      "《他改变了中国：江泽民传》是一部有关中国第三代最高领导人、前中共中央总书记江泽民的传记，作者为罗伯特·劳伦斯·库恩。",
-    date: "2021/07/23",
-    url: "/《他改变了中国：江泽民传》书摘",
-    pinned: false,
-  },
+  // {
+  //   // type: "life",
+  //   title: "Hello World",
+  //   description: `
+  //     Hi, I'm Meng shibo. Living in Beijing.
+  //     A Fontend engineer
+  //     Currently learning React related technologies`,
+  //   date: "2021/07/23",
+  //   url: "/",
+  //   pinned: true,
+  // },
   // {
   //   type: "blog post",
   //   title: "javascript那些遍历的方法",

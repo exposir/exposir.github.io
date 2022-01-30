@@ -79,8 +79,8 @@ function SocialIcons() {
       }}
     >
       <GitHub />
-      <Twitter />
       <Book />
+      <Twitter />
     </div>
   );
 }
