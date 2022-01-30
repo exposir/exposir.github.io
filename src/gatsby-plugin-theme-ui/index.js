@@ -1,25 +1,26 @@
-import "typeface-montserrat"
-import "typeface-merriweather"
-import { toTheme } from "@theme-ui/typography"
-import typography from "typography-theme-wordpress-2016"
-import merge from "deepmerge"
+import "typeface-montserrat";
+import "typeface-merriweather";
+import { toTheme } from "@theme-ui/typography";
+import typography from "typography-theme-wordpress-2016";
+import merge from "deepmerge";
 
-const typographyTheme = toTheme(typography)
+const typographyTheme = toTheme(typography);
 
-const innerMargin = 85
-const content = 420
+const innerMargin = 85;
+const content = 420;
 
-const darkerBlue = "#0f8f5e"
-const lightBlue = "#aaf6d9"
-const lighterBlue = "#ebfcf6"
+const darkerBlue = "#0f8f5e";
+const lightBlue = "#aaf6d9";
+const lighterBlue = "#ebfcf6";
+const themeColor = "#11141f";
 
 const theme = merge.all([
   typographyTheme,
   {
     colors: {
       background: "#FAF9F5",
-      text: "rgb(51,51,51)",
-      darkBackground: "#202226",
+      text: themeColor,
+      darkBackground: themeColor,
       lightText: "#DFDDD9",
       muted: "rgba(175, 173, 169, 0.5)",
       modes: null,
@@ -164,26 +165,28 @@ const theme = merge.all([
           "comment cdata doctype": {
             fontStyle: "italic",
           },
-          "builtin changed keyword punctuation operator tag deleted string attr-value char number inserted": {
-            color: lightBlue,
-          },
+          "builtin changed keyword punctuation operator tag deleted string attr-value char number inserted":
+            {
+              color: lightBlue,
+            },
         },
       },
     },
   },
-])
+]);
 
-theme.breakpoints = ["1000px"]
+theme.breakpoints = ["1000px"];
 
 theme.prism = {
-  ".builtin, .changed, .keyword, .punctuation, .operator, .tag, .deleted, .string, .attr-value, .char, .number, .inserted": {
-    color: "#0f8f5e",
-  },
+  ".builtin, .changed, .keyword, .punctuation, .operator, .tag, .deleted, .string, .attr-value, .char, .number, .inserted":
+    {
+      color: "#0f8f5e",
+    },
   ".comment, .cdata, .doctype": {
     fontStyle: "italic",
   },
-}
+};
 
 // console.log({ theme })
 
-export default theme
+export default theme;

@@ -10,8 +10,8 @@ function Header() {
       stx={{ pb: [3, 5] }}
       main={
         <>
-          <Styled.h1>孟世博</Styled.h1>
-          <Styled.p>一个简单的前端工程师</Styled.p>
+          <Styled.h1>Exposir</Styled.h1>
+          <Styled.p>风物长宜放眼量</Styled.p>
         </>
       }
       aside={<HeaderAside />}
