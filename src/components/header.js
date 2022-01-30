@@ -20,17 +20,26 @@ function Header() {
           </Styled.p>
           <Styled.p>
             目前业余时间正开发{" "}
-            <a style={linkStyle} href="https://github.com/exposir/macos-web">
+            <a
+              style={linkStyle}
+              href="https://github.com/exposir/macos-web"
+              target="_blank"
+            >
               macos-web
             </a>{" "}
-            ，一个基于 Next.js 的macosUI,也可以在{" "}
-            <a style={linkStyle} href="https://github.com/exposir/weekly">
+            ，一个基于 Next.js 的macosUI,你也可以在{" "}
+            <a
+              style={linkStyle}
+              href="https://github.com/exposir/weekly"
+              target="_blank"
+            >
               weekly
             </a>{" "}
             查看我的技术博客，我还开发了一个类 VuePress 的{" "}
             <a
               style={linkStyle}
               href="https://github.com/exposir/typora-vuepress-theme"
+              target="_blank"
             >
               Typora 主题。
             </a>{" "}
