@@ -19,10 +19,10 @@ function Header() {
             <div> 曾就职于360奇舞团、百度音乐</div>
           </Styled.p>
           <Styled.p>
-            目前业余时间正开发{" "}
+            业余时间我会开发{" "}
             <a
               style={linkStyle}
-              href="https://github.com/exposir/macos-web"
+              href="https://macos-web.exposir.cn/"
               target="_blank"
             >
               macos-web
@@ -30,10 +30,10 @@ function Header() {
             ，一个基于 Next.js 的macosUI,你也可以在{" "}
             <a
               style={linkStyle}
-              href="https://github.com/exposir/weekly"
+              href="https://www.zhihu.com/people/exposir/posts"
               target="_blank"
             >
-              weekly
+              Zhihu
             </a>{" "}
             查看我的技术博客，我还开发了一个类 VuePress 的{" "}
             <a
