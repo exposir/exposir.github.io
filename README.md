@@ -1,4 +1,13 @@
-# Eternity is the most romantic
+> # Eternity is the most romantic
+
+- [《Javascript悟道》读书笔记](#《Javascript悟道》读书笔记)
+  - [0. 序](#0-序)
+  - [1. 英文能力](#1-英文能力)
+  - [2. 购买VPS](#2-购买vps)
+    - [2.1 常规VPS](#21-常规vps)
+    - [2.2 CN2 线路](#22-cn2-线路)
+    - [2.3 NCP 线路](#23-ncp-线路)
+- [《他改变了中国：江泽民传》书摘](#《他改变了中国：江泽民传》书摘)
 
 # 《Javascript悟道》读书笔记
 
