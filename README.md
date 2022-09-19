@@ -4,7 +4,7 @@
   - [《Javascript悟道》读书笔记](#《Javascript悟道》读书笔记)
   - [《他改变了中国：江泽民传》书摘](#他改变了中国江泽民传书摘)
 - [编程](#防抖(debounce)、截流(throttle))
-  - [防抖(debounce)、截流(throttle)](#防抖(debounce)、截流(throttle))
+  - [防抖(debounce)、截流(throttle)](#防抖debounce截流throttle)
 
 # 《Javascript悟道》读书笔记
 
