@@ -116,6 +116,8 @@ Render(obj, document.body);
 
 ## 框架设计的核心要素
 
+### 提升用户的开发体验
+
 # 重学 Javascript
 
 > Javascript 高级程序设计 + Modern JavaScript Tutorial + MDN
