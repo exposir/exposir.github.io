@@ -2676,36 +2676,36 @@ Kubernetes（常简称为 K8s）是用于自动部署、扩展和管理“容器
 
 对象存储系统允许保留大量的非结构化数据。对象存储的用途包括：在 Facebook 上存储照片，在 Spotify 上存储歌曲，或在在线协作服务（如 Dropbox）中存储文件。[2]
 
-## **软件即服务(SaaS)**
+## 软件即服务(SaaS)
 
-**软件即服务**（英语：Software as a Service，缩写：**SaaS**，发音：/sæs/或/sɑs/ [[1]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-1)），亦可称为「按需即用软件」（即「一经要求，即可使用」）[[2]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-ITChannelGlossary-2)，它是一种[软件](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6)交付模式[[3]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-3)。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的[数据](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE)集中[寄存](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%89%98%E7%AE%A1%E6%9C%8D%E5%8A%A1)于[云端](https://zh.wikipedia.org/wiki/%E4%BA%91%E8%AE%A1%E7%AE%97)服务。用户通常使用[精简客户端](https://zh.wikipedia.org/wiki/%E7%B2%BE%E7%B0%A1%E5%AE%A2%E6%88%B6%E7%AB%AF)，一般即经由[网页浏览器](https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8)来存取、存取软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬碟，而是储存在提供商的云端或者伺服器。相较于传统软件需要花钱购买和下载，软件即服务只需要用户租用软件，线上使用，不但大大减少了用户购买风险, 也无需下载软件本身，无装置要求的限制[[4]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-4)。
+软件即服务（英语：Software as a Service，缩写：SaaS，发音：/sæs/或/sɑs/[1]），亦可称为“按需即用软件”（即“一经要求，即可使用”）[2]，它是一种软件交付模式[3]。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的数据集中托管于云端服务。用户通常使用精简客户端，一般即经由网页浏览器来访问、访问软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬盘，而是存储在提供商的云端或者服务器。相较于传统软件需要花钱购买和下载，软件即服务只需要用户租用软件，在线使用，不但大大减少了用户购买风险, 也无需下载软件本身，无设备要求的限制[4]。
 
-对于许多商业应用来说，软件即服务已经成为一种常见的交付模式。这些商业应用包括[会计系统][https://zh.wikipedia.org/wiki/%e4%bc%9a%e8%ae%a1%e7%b3%bb%e7%bb%9f]([2)](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-ITChannelGlossary-2)、[协同软件](https://zh.wikipedia.org/wiki/%E7%BE%A4%E4%BB%B6)、[客户关系管理](https://zh.wikipedia.org/wiki/%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86)、[管理资讯系统](https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F)、[企业资源计划](https://zh.wikipedia.org/wiki/%E4%BC%81%E4%B8%9A%E8%B5%84%E6%BA%90%E8%AE%A1%E5%88%92)、开票系统、[人力资源管理](https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86)、[内容管理](https://zh.wikipedia.org/wiki/%E5%85%A7%E5%AE%B9%E7%AE%A1%E7%90%86)、以及服务台管理[[5]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-5)。软件即服务已经被吸纳进所有领先的[企业级软件](https://zh.wikipedia.org/wiki/%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%BD%AF%E4%BB%B6)公司的战略中[[6]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-6)。这些公司的最大的卖点之一就是通过将硬件和软件维护及支援外包给软件即服务的提供者，来降低资讯科技（Information Technology，简称 IT）成本[[7]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-7)。
+对于许多商业应用来说，软件即服务已经成为一种常见的交付模式。这些商业应用包括会计系统[2]、协同软件、客户关系管理、管理信息系统、企业资源计划、开票系统、人力资源管理、内容管理、以及服务台管理[5]。软件即服务已经被吸纳进所有领先的企业级软件公司的战略中[6]。这些公司的最大的卖点之一就是通过将硬件和软件维护及支持外包给软件即服务的提供者，来降低信息技术（Information Technology，简称 IT）成本[7]。
 
-根据一份[高德纳集团](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)（Gartner Group，也称顾能集团）的评估[[8]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-8)，软件即服务的销售在2010年达到了100亿美元，并且曾被预计在2011年要达到121亿美元，比2010年上升20.7%。高德纳集团估计，到2015年，软件即服务的收入将会超过它的2010年的收入的2倍以上，并且达到预计的213亿美元。[客户关系管理](https://zh.wikipedia.org/wiki/%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86)系统持续成为软件即服务的最大市场。在客户关系管理市场中的软件即服务曾被预测会从2010年的32亿美元上升到2011年的38亿美元[[9]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-9)。
+根据一份高德纳集团（Gartner Group，也称顾能集团）的评估[8]，软件即服务的销售在 2010 年达到了 100 亿美元，并且曾被预计在 2011 年要达到 121 亿美元，比 2010 年上升 20.7%。高德纳集团估计，到 2015 年，软件即服务的收入将会超过它的 2010 年的收入的 2 倍以上，并且达到预计的 213 亿美元。客户关系管理系统持续成为软件即服务的最大市场。在客户关系管理市场中的软件即服务曾被预测会从 2010 年的 32 亿美元上升到 2011 年的 38 亿美元[9]。
 
-「软件即服务」（SaaS）的术语被认为是云端运算的命名法的一部分，还有[IaaS](https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%8D%B3%E6%9C%8D%E5%8A%A1)、[PaaS](https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1)、[桌面即服务](https://zh.wikipedia.org/w/index.php?title=%E6%A1%8C%E9%9D%A2%E5%8D%B3%E6%9C%8D%E5%8A%A1&action=edit&redlink=1)（DaaS）都被认为是[云端运算](https://zh.wikipedia.org/wiki/%E4%BA%91%E8%AE%A1%E7%AE%97)的学术名称[[10]](https://zh.wikipedia.org/zh-hk/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-10)。
+“软件即服务”（SaaS）的术语被认为是云计算的命名法的一部分，还有 IaaS、PaaS、桌面即服务（DaaS）都被认为是云计算的学术名称[10]。
 
-## **基础设施即服务(LaaS)**
+## 基础设施即服务(LaaS)
 
-**基础设施即服务**（英语：Infrastructure as a Service，简称  **IaaS**）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。
+基础设施即服务（英语：Infrastructure as a Service，简称 IaaS）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。
 
-IaaS 是[云服务](https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97)的最底层，主要提供一些基础资源。它与  [PaaS](https://zh.wikipedia.org/wiki/PaaS)  的区别是，用户需要自己控制底层，实现[基础设施](https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)的使用逻辑。
+IaaS 是云服务的最底层，主要提供一些基础资源。它与 PaaS 的区别是，用户需要自己控制底层，实现基础设施的使用逻辑。
 
-客户端无须购买[服务器](https://zh.wikipedia.org/wiki/%E4%BC%BA%E6%9C%8D%E5%99%A8)、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制[操作系统](https://zh.wikipedia.org/wiki/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)、[储存装置](https://zh.wikipedia.org/wiki/%E5%84%B2%E5%AD%98%E8%A3%9D%E7%BD%AE)、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端[防火墙](<https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E5%A2%99_(%E7%BD%91%E7%BB%9C)>)。 [[1]][https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E5%8D%B3%E6%9C%8D%E5%8B%99#cite_note-1]([2)](<https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E5%8D%B3%E6%9C%8D%E5%8B%99#cite_note-%E9%9B%B21-2>)  下面这些都属于 IaaS。
+客户端无须购买服务器、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制操作系统、储存装置、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端防火墙。下面这些都属于 IaaS。
 
 - [Amazon EC2](https://zh.wikipedia.org/wiki/Amazon_EC2)
 - Digital Ocean
 - RackSpace Cloud
 - [OpenStack](https://zh.wikipedia.org/wiki/OpenStack)
 
-## **平台即服务(PaaS)**
+## 平台即服务(PaaS)
 
-**平台即服务**（英语：platform as a service，[缩写](https://zh.wikipedia.org/wiki/%E7%BC%A9%E5%86%99)：**PaaS**）是一种[云计算](https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97)服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS 层介于[软件即服务](https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E5%8D%B3%E6%9C%8D%E5%8B%99)与[基础设施即服务](https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E5%8D%B3%E6%9C%8D%E5%8B%99)之间。
+平台即服务（英语：platform as a service，缩写：PaaS）是一种云计算服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS 层介于软件即服务与基础设施即服务之间。
 
-PaaS 提供用户将云端基础设施部署与创建至客户端，或者借此获得使用[编程语言](https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80)、[程序库](https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%BC%8F%E5%BA%AB)与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。[[1]](https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1#cite_note-nist-1)
+PaaS 提供用户将云端基础设施部署与创建至客户端，或者借此获得使用编程语言、程序库与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。
 
-PaaS 将软件研发的平台做为一种服务，以[软件即服务](https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E5%8D%B3%E6%9C%8D%E5%8B%99)（SaaS）模式交付给用户。因此，PaaS 也是 SaaS 模式的一种应用。但是，PaaS 的出现可以加快 SaaS 的发展，尤其是加快 SaaS 应用的开发速度。
+PaaS 将软件研发的平台做为一种服务，以软件即服务（SaaS）模式交付给用户。因此，PaaS 也是 SaaS 模式的一种应用。但是，PaaS 的出现可以加快 SaaS 的发展，尤其是加快 SaaS 应用的开发速度。
 
 PaaS 提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展（scaling）。开发者只需要关注自己的业务逻辑，不需要关注底层。下面这些都属于 PaaS。
 
