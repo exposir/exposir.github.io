@@ -5,7 +5,7 @@
 > 我是一个前端工程师，我用过很多框架和工具写文章、搭博客。我同样看过很多其他人的博客，他们优秀的文章的令人惊胆，有些绝妙的设计的让人过目不忘。可惜的是有些博客已经不再更新，最后一篇文章终止在几年前，最让我遗憾的还是有些博客是已无法打开。所以我选择用 README.md 作为我的博客，虽然这个文档过长且难以维护，但我希望在可见的未来它可以一直留在互联网上。 Eternity is the most romantic 2022-9-20
 
 - 文章
-  - [Vue.js 设计与实现](#vuejs-设计与实现)
+  - [Vue.js 设计与实现](/post/Vue.js%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
   - [重学 Javascript](#重学-javascript)
   - [生酮饮食（keto）](#生酮饮食keto)
   - [《Javascript 悟道》读书笔记](#javascript-悟道读书笔记)
@@ -69,7 +69,7 @@ Vue 内部实现是命令式，而暴露给用户是声明式。
 
 纯运行时框架
 
-```js
+```jsx
 function Render(obj, root) {
   const el = document.createElement(obj.tag);
   if (typeof obj.children === "string") {
@@ -97,7 +97,7 @@ Render(obj, document.body);
 
 为此，你编写了一个叫作 Compiler 的程序，它的作用就是把 HTML 字符串编译成树型结构的数据对象，于是交付给用户去用了
 
-```js
+```jsx
 const html = `<div>hello world</div>`;
 //调用 Compiler 编译得到树型结构的数据对象
 const obj = Compile(html);
@@ -2210,6 +2210,9 @@ a = throttle(get, 1000);
 # 其他
 
 # 互联网常用名词
+
+- [服务器](#服务器)
+  - [Vue.js 设计与实现](#vuejs-设计与实现)
 
 ## 服务器
 
