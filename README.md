@@ -5,7 +5,7 @@
 > 我是一个前端工程师，我用过很多框架和工具写文章、搭博客。我同样看过很多其他人的博客，他们优秀的文章的令人惊胆，有些绝妙的设计的让人过目不忘。可惜的是有些博客已经不再更新，最后一篇文章终止在几年前，最让我遗憾的还是有些博客是已无法打开。所以我选择用 Github 作为我的博客，我希望在可见的未来它可以一直留在互联网上。 Eternity is the most romantic 2022-9-20
 
 - 文章
-  - [Vue.js 设计与实现](/post/Vue.js%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
+  - [Vue.js 设计与实现](/post/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
   - [重学 Javascript](/post/%E9%87%8D%E5%AD%A6%20Javascript.md)
   - [生酮饮食（keto）](/post/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%88keto%EF%BC%89.md)
   - [《Javascript 悟道》笔记](/post/%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
