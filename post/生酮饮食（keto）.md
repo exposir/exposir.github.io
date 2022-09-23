@@ -2,11 +2,11 @@
 
 ## 基础知识
 
-## **生酮饮食**
+### **生酮饮食**
 
 **生酮饮食**（英语：ketogenic diet）字面意思是“会产生酮体的饮食”，其为一种高[脂肪](https://zh.wikipedia.org/wiki/%E8%84%82%E8%82%AA)，充足[蛋白质](https://zh.wikipedia.org/wiki/%E8%9B%8B%E7%99%BD%E8%B3%AA)，极[低碳水化合物饮食][https://zh.wikipedia.org/wiki/%e4%bd%8e%e7%a2%b3%e6%b0%b4%e5%8c%96%e5%90%88%e7%89%a9%e9%a3%b2%e9%a3%9f]([1)](https://zh.wikipedia.org/zh/%E7%94%9F%E9%85%AE%E9%A3%B2%E9%A3%9F#cite_note-Masood2021-1)。这种饮食的特色是让食物严重缺乏碳水化合物，强迫身体燃烧脂肪而非[碳水化合物](https://zh.wikipedia.org/wiki/%E7%B3%96%E7%B1%BB)，进而产生酮体；医学上主要在用于治疗难以控制（难治）的[儿童癫痫](https://zh.wikipedia.org/w/index.php?title=%E5%85%92%E7%AB%A5%E7%99%B2%E7%99%87&action=edit&redlink=1)。
 
-## **生酮作用**
+### **生酮作用**
 
 **生酮作用**（英语：Ketogenesis，又称**酮体生成**）是指[脂肪酸降解](https://zh.wikipedia.org/wiki/%E8%84%82%E8%82%AA%E9%85%B8%E4%BB%A3%E8%AC%9D)过程结果所致的[酮体](https://zh.wikipedia.org/wiki/%E9%85%AE%E4%BD%93)生成过程。
 
@@ -22,11 +22,11 @@
 
 ## **胰岛素抵抗**
 
-**胰岛素抵抗**（英语：insulin resistance）又称**胰岛素抗性**[[1]][https://zh.wikipedia.org/wiki/%E8%83%B0%E5%B2%9B%E7%B4%A0%E6%8A%B5%E6%8A%97#cite_note-1]([2)](<https://zh.wikipedia.org/wiki/%E8%83%B0%E5%B2%9B%E7%B4%A0%E6%8A%B5%E6%8A%97#cite_note-2>)，是指[胰脏](https://zh.wikipedia.org/wiki/%E8%83%B0%E8%87%9F)并没有任何病理问题时，[脂肪细胞](https://zh.wikipedia.org/wiki/%E8%84%82%E8%82%AA%E7%B4%B0%E8%83%9E)、[肌肉细胞](https://zh.wikipedia.org/wiki/%E8%82%8C%E8%82%89%E7%B4%B0%E8%83%9E)和[肝](https://zh.wikipedia.org/wiki/%E8%82%9D)细胞对正常浓度的[胰岛素](https://zh.wikipedia.org/wiki/%E8%83%B0%E5%B2%9B%E7%B4%A0)反应不足的现象，亦即这些细胞需要更高的胰岛素浓度才能对胰岛素产生反应。随着情况发展，可能胰岛素的分泌量尽管提升很多却也无法满足需求，引起肌肉细胞吸收和肝细胞储备的[葡萄糖](https://zh.wikipedia.org/wiki/%E8%91%A1%E8%90%84%E7%B3%96)量降低，以及脂肪细胞储存的[甘油三酸酯](https://zh.wikipedia.org/wiki/%E7%94%98%E6%B2%B9%E4%B8%89%E9%85%B8%E9%85%AF)的水解，分别提升[血浆](https://zh.wikipedia.org/wiki/%E8%A1%80%E6%B5%86)中糖和自由[脂肪酸](https://zh.wikipedia.org/wiki/%E8%84%82%E8%82%AA%E9%85%B8)的含量，进而导致[代谢综合征](https://zh.wikipedia.org/wiki/%E4%BB%A3%E8%AC%9D%E7%97%87%E5%80%99%E7%BE%A4)。
+胰岛素抵抗（英语：insulin resistance）又称胰岛素抗性，是指胰脏并没有任何病理问题时，脂肪细胞、肌肉细胞和肝细胞对正常浓度的胰岛素反应不足的现象，亦即这些细胞需要更高的胰岛素浓度才能对胰岛素产生反应。随着情况发展，可能胰岛素的分泌量尽管提升很多却也无法满足需求，引起肌肉细胞吸收和肝细胞储备的葡萄糖量降低，以及脂肪细胞储存的甘油三酸酯的水解，分别提升血浆中糖和自由脂肪酸的含量，进而导致代谢综合征。
 
 ## 糖异化
 
-**糖异生**（英语：Gluconeogenesis[[1]](https://zh.wikipedia.org/wiki/%E7%B3%96%E5%BC%82%E7%94%9F#cite_note-1)）又称**糖异生作用**、**糖原发育不良作用**，指的是非碳水化合（[乳酸](https://zh.wikipedia.org/wiki/%E4%B9%B3%E9%85%B8)、[丙酮酸](https://zh.wikipedia.org/wiki/%E4%B8%99%E9%85%AE%E9%85%B8)、[甘油](https://zh.wikipedia.org/wiki/%E7%94%98%E6%B2%B9)、生糖[氨基酸](https://zh.wikipedia.org/wiki/%E6%B0%A8%E5%9F%BA%E9%85%B8)等）转变为[葡萄糖](https://zh.wikipedia.org/wiki/%E8%91%A1%E8%90%84%E7%B3%96)的过程，所以又称为**葡萄糖新生**[[2]](https://zh.wikipedia.org/wiki/%E7%B3%96%E5%BC%82%E7%94%9F#cite_note-2)。糖异生保证了机体的[血糖](https://zh.wikipedia.org/wiki/%E8%A1%80%E7%B3%96)水平处于正常水平。糖异生的主要[器官](https://zh.wikipedia.org/wiki/%E5%99%A8%E5%AE%98)是[肝](https://zh.wikipedia.org/wiki/%E8%82%9D)。肾在正常情况下糖异生能力只有肝的十分之一，但长期饥饿与酸中毒时肾糖异生能力可大为增强。
+糖异生（英语：Gluconeogenesis[1]）又称糖异生作用、糖原发育不良作用，指的是非碳水化合物（乳酸、丙酮酸、甘油、生糖氨基酸等）转变为葡萄糖的过程，所以又称为葡萄糖新生[2]。糖异生保证了机体的血糖水平处于正常水平。糖异生的主要器官是肝。肾在正常情况下糖异生能力只有肝的十分之一，但长期饥饿与酸中毒时肾糖异生能力可大为增强。
 
 ## 血脑屏障
 
