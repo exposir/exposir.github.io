@@ -1,4 +1,4 @@
-# Eternity is the most romantic
+## Eternity is the most romantic
 
 [Github](https://github.com/exposir) [Notion](https://exposir.notion.site) [Twitter](https://twitter.com/ExposirM)
 
@@ -6,15 +6,17 @@
 
 > “与其担心宏观经济，不如关注自己。你对自己生活的影响，往往比宏观经济对你的影响大得多。”
 
-- 文章
-  - [Vue.js 设计与实现](/post/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
-  - [重学 Javascript](/post/%E9%87%8D%E5%AD%A6%20Javascript.md)
-  - [徒步游记之香巴拉](/post/徒步游记之香巴拉.md)
-  - [生酮饮食（keto）](/post/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F%EF%BC%88keto%EF%BC%89.md)
-  - [《Javascript 悟道》笔记](/post/%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
-  - [React 框架选择指北](/post/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
-  - [《他改变了中国：江泽民传》笔记](/post/%E3%80%8A%E4%BB%96%E6%94%B9%E5%8F%98%E4%BA%86%E4%B8%AD%E5%9B%BD%EF%BC%9A%E6%B1%9F%E6%B3%BD%E6%B0%91%E4%BC%A0%E3%80%8B%E4%B9%A6%E6%91%98.md)
-- 编程
-  - [防抖(debounce)、截流(throttle)](</code/%E9%98%B2%E6%8A%96(debounce)%E3%80%81%E6%88%AA%E6%B5%81(throttle).md>)
-- 其他
-  - [互联网常用名词](/else/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
+- Blog
+  - [Vue.js 设计与实现](https://github.com/exposir/exposir.github.io/issues/9)
+  - [重学 Javascript](https://github.com/exposir/exposir.github.io/issues/1)
+  - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/issues/5)
+  - [React 框架选择指北](https://github.com/exposir/exposir.github.io/issues/8)
+- Life
+  - [重庆之旅 Jul 7, 2022](https://github.com/exposir/exposir.github.io/issues/12)
+  - [生酮饮食（keto）](https://github.com/exposir/exposir.github.io/issues/7)
+  - [徒步游记之香巴拉 May 2, 2022](https://github.com/exposir/exposir.github.io/issues/2)
+  - [《他改变了中国：江泽民传》书摘](https://github.com/exposir/exposir.github.io/issues/6)
+- Code
+  - [防抖(debounce)、截流(throttle)](https://github.com/exposir/exposir.github.io/issues/11)
+- Else
+  - [互联网常用名词](https://github.com/exposir/exposir.github.io/issues/10)
