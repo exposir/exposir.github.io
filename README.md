@@ -66,7 +66,7 @@
   - [Vue.js 设计与实现](blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0)
   - [重学 Javascript](https://github.com/exposir/exposir.github.io/discussions/22)
   - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/discussions/23)
-  - [React 框架选择指北](https://github.com/exposir/exposir.github.io/discussions/18)
+  - [React 框架选择指北](/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97)
 - Life
   - [重庆之旅 Jul 7, 2022](life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85)
   - [生酮饮食(keto)](life/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F(keto))
