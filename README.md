@@ -63,10 +63,10 @@
 > “与其担心宏观经济，不如关注自己。你对自己生活的影响，往往比宏观经济对你的影响大得多。”
 
 - Blog
-  - [Vue.js 设计与实现](blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
+  - [Vue.js 设计与实现](docs/blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
   - [重学 Javascript](https://github.com/exposir/exposir.github.io/discussions/22)
-  - [《Javascript 悟道》笔记](blog/%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
-  - [React 框架选择指北](/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
+  - [《Javascript 悟道》笔记](docs/blog/%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
+  - [React 框架选择指北](docs/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
 - Life
   - [重庆之旅 Jul 7, 2022](life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85.md)
   - [生酮饮食(keto)](life/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F(keto).md)
