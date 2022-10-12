@@ -63,7 +63,7 @@
 > “与其担心宏观经济，不如关注自己。你对自己生活的影响，往往比宏观经济对你的影响大得多。”
 
 - Blog
-  - [Vue.js 设计与实现](blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0)
+  - [Vue.js 设计与实现](blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
   - [重学 Javascript](https://github.com/exposir/exposir.github.io/discussions/22)
   - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/discussions/23)
   - [React 框架选择指北](/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97)
