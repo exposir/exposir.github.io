@@ -76,7 +76,7 @@
   - [防抖(debounce)、截流(throttle)](code/防抖(debounce)、截流(throttle).md)
   - 第 190 期：[产品化思维](docs/issue-190.md)
 - Else
-  - [互联网常用名词](docs/else/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
+  - [互联网常用名词](docs/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
 
 ## Book
 
