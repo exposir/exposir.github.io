@@ -74,6 +74,7 @@
   - [《他改变了中国：江泽民传》书摘](life/%E3%80%8A%E4%BB%96%E6%94%B9%E5%8F%98%E4%BA%86%E4%B8%AD%E5%9B%BD%EF%BC%9A%E6%B1%9F%E6%B3%BD%E6%B0%91%E4%BC%A0%E3%80%8B%E4%B9%A6%E6%91%98.md)
 - Code
   - [防抖(debounce)、截流(throttle)](code/防抖(debounce)、截流(throttle).md)
+  - 第 190 期：[产品化思维](docs/issue-190.md)
 - Else
   - [互联网常用名词](else/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
 
