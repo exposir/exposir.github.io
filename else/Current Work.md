@@ -10,28 +10,30 @@
 差距: 32.9 kg
 
 ### 目标
+
 - 达到**90**以下 -> 自己去吃一次深夜**海底捞**
 
 ## Personal
+
 - [exposir.github.io](http://exposir.github.io/)
 - [people](https://github.com/exposir/people)
 - [people-pictorial](https://github.com/exposir/people-pictorial)
 - [supernatural_tianya](https://github.com/exposir/supernatural_tianya)
 - [store](https://github.com/exposir/store/discussions)
-   - [每日规划](https://github.com/exposir/store/discussions/6)
-   - [Collection](https://github.com/exposir/store/discussions/2)
-   - [Myself](https://github.com/exposir/store/discussions/7)
+  - [每日规划](https://github.com/exposir/store/discussions/6)
+  - [Collection](https://github.com/exposir/store/discussions/2)
+  - [Myself](https://github.com/exposir/store/discussions/7)
 - [politics](https://github.com/exposir/politics/discussions)
-   - [pincong](https://github.com/exposir/politics/discussions/15)
-
+  - [pincong](https://github.com/exposir/politics/discussions/15)
 
 ## Project
+
 - [supernatural_tianya](https://github.com/exposir/supernatural_tianya)
 - [liwenliang](https://github.com/exposir/liwenliang)
 - [bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node)
-   - [bing-wallpapers.vercel.app](https://bing-wallpapers.vercel.app/)
+  - [bing-wallpapers.vercel.app](https://bing-wallpapers.vercel.app/)
 - [macos-web-vue](https://github.com/exposir/macos-web-vue)
-    - [macos-web-vue.vercel.app](https://macos-web-vue.vercel.app/)
+  - [macos-web-vue.vercel.app](https://macos-web-vue.vercel.app/)
 - [mobi-reader](https://github.com/exposir/mobi-reader)
 - [notionpress](https://github.com/exposir/notionpress)
 - [typora-vuepress-theme](https://github.com/exposir/typora-vuepress-theme)
@@ -40,19 +42,17 @@
 - [grassland](https://github.com/exposir/grassland)
 - [grassland-starter](https://github.com/exposir/grassland-starter)
 
-
 ## Contributions
 
 - [lotion](https://github.com/exposir/lotion)
 - [flat-viewer](https://github.com/exposir/flat-viewer)
-   - [flat-viewer.vercel.app](https://flat-viewer.vercel.app/)
+  - [flat-viewer.vercel.app](https://flat-viewer.vercel.app/)
 
 ## Wiki
+
 - [ruanyf-weekly](https://github.com/exposir/ruanyf-weekly)
 - [es6tutorial](https://github.com/exposir/es6tutorial)
 - [MaoZeDongAnthology](https://github.com/exposir/MaoZeDongAnthology)
-
-
 
 ## Eternity is the most romantic
 
@@ -90,15 +90,13 @@
 |-|进击的智人|河森堡|✅|-|7.7| 2020-4-2 |
 |-|活着|余华|✅|-|9.4| 2019-7-7 |
 
+## Weight
 
-
-## Weight 
-
-### 2022 
+### 2022
 
 |体重|日期|
-|-|-|                  
-|94.44|10-8|    
+|-|-|
+|94.44|10-8|
 |95.55 |10-7|
 |96.9|10-06|
 |92.75|8-9|
@@ -272,6 +270,7 @@
 |89.7|3-2|
 
 ### 2018
+
 |体重|日期|
 |-|-|
 |86.3|11-8|
@@ -356,8 +355,6 @@
 |84.7|10-6|
 |78.2|6-13|
 
-
-
 ## Film & TV
 
 |封面|名称|导演|主演|豆瓣|个人|时间|
@@ -395,11 +392,4 @@
 | 十一月 | November | Nov |
 | 十二月 | December | Dec |
 
-
-
 ![image](https://user-images.githubusercontent.com/33340988/193036824-ee9808ca-8933-4903-a381-eb166d363eb6.png)
-
-
-
-
-
