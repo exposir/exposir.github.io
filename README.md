@@ -73,7 +73,7 @@
   - [徒步游记之香巴拉 May 2, 2022](https://github.com/exposir/exposir.github.io/discussions/20)
   - [《他改变了中国：江泽民传》书摘](https://github.com/exposir/exposir.github.io/discussions/21)
 - Code
-  - [防抖(debounce)、截流(throttle)](https://github.com/exposir/exposir.github.io/discussions/15)
+  - [防抖(debounce)、截流(throttle)](code/防抖(debounce)、截流(throttle).md)
 - Else
   - [互联网常用名词](https://github.com/exposir/exposir.github.io/discussions/16)
 
