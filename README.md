@@ -68,7 +68,7 @@
   - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/discussions/23)
   - [React 框架选择指北](https://github.com/exposir/exposir.github.io/discussions/18)
 - Life
-  - [重庆之旅 Jul 7, 2022](https://github.com/exposir/exposir.github.io/discussions/14)
+  - [重庆之旅 Jul 7, 2022](life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85.md)
   - [生酮饮食（keto）](https://github.com/exposir/exposir.github.io/discussions/19)
   - [徒步游记之香巴拉 May 2, 2022](https://github.com/exposir/exposir.github.io/discussions/20)
   - [《他改变了中国：江泽民传》书摘](https://github.com/exposir/exposir.github.io/discussions/21)
