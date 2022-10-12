@@ -66,16 +66,16 @@
   - [Vue.js 设计与实现](blog/Vue.js%20%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
   - [重学 Javascript](https://github.com/exposir/exposir.github.io/discussions/22)
   - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/discussions/23)
-  - [React 框架选择指北](/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97)
+  - [React 框架选择指北](/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
 - Life
-  - [重庆之旅 Jul 7, 2022](life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85)
-  - [生酮饮食(keto)](life/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F(keto))
-  - [徒步游记之香巴拉 May 2, 2022](life/%E5%BE%92%E6%AD%A5%E6%B8%B8%E8%AE%B0%E4%B9%8B%E9%A6%99%E5%B7%B4%E6%8B%89)
+  - [重庆之旅 Jul 7, 2022](life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85.md)
+  - [生酮饮食(keto)](life/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F(keto).md)
+  - [徒步游记之香巴拉 May 2, 2022](life/%E5%BE%92%E6%AD%A5%E6%B8%B8%E8%AE%B0%E4%B9%8B%E9%A6%99%E5%B7%B4%E6%8B%89.md)
   - [《他改变了中国：江泽民传》书摘](https://github.com/exposir/exposir.github.io/discussions/21)
 - Code
-  - [防抖(debounce)、截流(throttle)](code/防抖(debounce)、截流(throttle))
+  - [防抖(debounce)、截流(throttle)](code/防抖(debounce)、截流(throttle).md)
 - Else
-  - [互联网常用名词](https://github.com/exposir/exposir.github.io/discussions/16)
+  - [互联网常用名词](else/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
 
 ## Book
 
