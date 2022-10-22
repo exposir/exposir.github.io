@@ -20,4 +20,4 @@
   - [防抖(debounce)、截流(throttle)](docs/%E9%98%B2%E6%8A%96(debounce)%E3%80%81%E6%88%AA%E6%B5%81(throttle).md)
 - Else
   - [互联网常用名词](./docs/%E4%BA%92%E8%81%94%E7%BD%91%E5%B8%B8%E7%94%A8%E5%90%8D%E8%AF%8D.md)
-  - [阿波罗计划](/docs/%E9%98%BF%E6%B3%A2%E7%BD%97%E8%AE%A1%E5%88%92.md)
+  - [阿波罗计划](/docs/阿波罗计划.md)
