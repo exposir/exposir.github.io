@@ -9,8 +9,8 @@
 - Blog
   - [Vue.js 设计与实现](https://github.com/exposir/exposir.github.io/discussions/17)
   - [重学 Javascript](https://github.com/exposir/exposir.github.io/discussions/22)
-  - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/discussions/23)
-  - [React 框架选择指北](https://github.com/exposir/exposir.github.io/discussions/18)
+  - [《Javascript 悟道》笔记](https://github.com/exposir/exposir.github.io/blob/main/blog/%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E7%AC%94%E8%AE%B0.md)
+  - [React 框架选择指北](https://github.com/exposir/exposir.github.io/blob/main/blog/React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
 - Life
   - [重庆之旅 Jul 7, 2022](https://github.com/exposir/exposir.github.io/discussions/14)
   - [生酮饮食（keto）](https://github.com/exposir/exposir.github.io/discussions/19)
