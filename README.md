@@ -11,11 +11,11 @@
   - [React 框架选择指北](./docs/React框架选择指北.md)
 - Life
   - [重庆之旅 Jul 7, 2022](./docs/重庆之旅.md)
-  - [生酮饮食（keto）](./docs/生酮饮食(keto).md)
-  - [徒步游记之香巴拉 May 2, 2022](./docs/%E5%BE%92%E6%AD%A5%E6%B8%B8%E8%AE%B0%E4%B9%8B%E9%A6%99%E5%B7%B4%E6%8B%89.md)
-  - [《他改变了中国：江泽民传》书摘](./docs/《他改变了中国：江泽民传》书摘.md)
+  - [生酮饮食（keto）](./docs/生酮饮食keto.md)
+  - [徒步游记之香巴拉 May 2, 2022](./docs/徒步游记之香巴拉.md)
+  - [《他改变了中国：江泽民传》书摘](./docs/《他改变了中国江泽民传》书摘.md)
 - Code
-  - [防抖(debounce)、截流(throttle)](./docs/防抖(debounce)、截流(throttle).md)
+  - [防抖(debounce)、截流(throttle)](./docs/防抖(debounce)截流(throttle).md)
 - Else
   - [互联网常用名词](./docs/互联网常用名词.md)
   - [阿波罗计划](./docs/阿波罗计划.md)
