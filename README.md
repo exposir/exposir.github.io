@@ -12,11 +12,12 @@
   - [《Javascript 悟道》笔记](./blog//%E3%80%8AJavascript%20%E6%82%9F%E9%81%93%E3%80%8B%E7%AC%94%E8%AE%B0.md)
   - [React 框架选择指北](./blog//React%20%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9%E6%8C%87%E5%8C%97.md)
 - Life
-  - [重庆之旅 Jul 7, 2022](https://github.com/exposir/exposir.github.io/discussions/14)
-  - [生酮饮食（keto）](https://github.com/exposir/exposir.github.io/discussions/19)
-  - [徒步游记之香巴拉 May 2, 2022](https://github.com/exposir/exposir.github.io/discussions/20)
+  - [重庆之旅 Jul 7, 2022](./life/%E9%87%8D%E5%BA%86%E4%B9%8B%E6%97%85.md)
+  - [生酮饮食（keto）](./life/%E7%94%9F%E9%85%AE%E9%A5%AE%E9%A3%9F(keto).md)
+  - [徒步游记之香巴拉 May 2, 2022](./life//%E5%BE%92%E6%AD%A5%E6%B8%B8%E8%AE%B0%E4%B9%8B%E9%A6%99%E5%B7%B4%E6%8B%89.md)
   - [《他改变了中国：江泽民传》书摘](https://github.com/exposir/exposir.github.io/discussions/21)
 - Code
   - [防抖(debounce)、截流(throttle)](https://github.com/exposir/exposir.github.io/discussions/15)
 - Else
   - [互联网常用名词](https://github.com/exposir/exposir.github.io/discussions/16)
+  - [阿波罗计划](docs/阿波罗计划.md)
