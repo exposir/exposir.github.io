@@ -10,7 +10,7 @@
   - [《Javascript 悟道》笔记](./docs/《Javascript悟道》笔记.md)
   - [React 框架选择指北](./docs/React框架选择指北.md)
 - Life
-  - [重庆之旅 Jul 7, 2022](./docs/重庆之旅.md)
+  - [重庆之旅 Jul 7, 2022](https://github.com/exposir/exposir.github.io/issues/12)
   - [生酮饮食（keto）](./docs/生酮饮食keto.md)
   - [徒步游记之香巴拉 May 2, 2022](./docs/徒步游记之香巴拉.md)
   - [《他改变了中国：江泽民传》书摘](./docs/《他改变了中国江泽民传》书摘.md)
