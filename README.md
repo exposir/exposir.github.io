@@ -25,7 +25,7 @@
 ## 2023
 
 - [画廊](https://www.notion.so/567bc7d1452340c3bdaa1c5dbf3cef2b?pvs=21)
-- [TypeScript 不能正确处理 Object.keys() September 1, 2023 ](https://www.notion.so/TypeScript-Object-keys-900d324538a94fc680a14a7cb1782364?pvs=21)
+- [为什么 TypeScript 不能正确处理 Object.keys() September 1, 2023 ](https://github.com/exposir/exposir.github.io/issues/34)
 - [你不知道的 JS 标签函数 August 29, 2023 ](https://www.notion.so/JS-859c0779007742ab815c74443e918fc7?pvs=21)
 - [咖啡知识概览 August 7, 2023 ](https://www.notion.so/d3cc1a5bbe9b4edcb5288a13c7b7b8df?pvs=21)
 - [React 版本 August 4, 2023](https://www.notion.so/React-41d717d932ca4bdd9decde7e42f9a365?pvs=21)
